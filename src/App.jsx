@@ -1,8 +1,11 @@
 import React from 'react'
+import NavBar from './comps/NavBar'
 
 function Hi() {
   return (
-    <div>Hi</div>
+    <div>
+      <NavBar />
+      Hi</div>
   )
 }
 
