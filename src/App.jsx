@@ -1,12 +1,11 @@
-import React from 'react'
 import NavBar from './comps/NavBar'
 
-function Hi() {
+function app() {
   return (
     <div>
       <NavBar />
-      Hi</div>
+    </div>
   )
 }
 
-export default Hi
+export default app
