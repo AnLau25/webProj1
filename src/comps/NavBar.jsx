@@ -28,7 +28,9 @@ const NavBar = () => {
                             className="me-2 search-input"
                             aria-label="Search"
                         />
-                        <Button variant="outline-light">🔍</Button>
+                        <Button variant="outline-light">
+                            <img src='./lupa.svg' className='button-image'/>
+                        </Button>
                     </Form>
                 </Navbar.Collapse>
             </Container>
