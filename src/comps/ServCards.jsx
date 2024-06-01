@@ -2,7 +2,13 @@ import React from 'react'
 
 const ServCards = () => {
   return (
-    <div>ServCards</div>
+    <div class='card'>
+        <div class='card-body'>
+            <h4 class='card-tile'>Fer</h4> 
+            
+        </div>
+
+    </div>
   )
 }
 

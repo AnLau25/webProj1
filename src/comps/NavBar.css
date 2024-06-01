@@ -42,15 +42,10 @@
 .search-form .search-input:focus,
 .search-form .search-input:active{
     border-bottom: 1px solid #a31414;
+    border-radius: 50;
     outline: none;
     width: 300px;
     box-shadow: 0 0 5px rgba(163, 20, 20, 1);
-}
-
-.search-form .search-input:focus {
-    border-bottom: 1px solid #a31414;
-    outline: none;
-    width: 300px;
 }
 
 .search-form .search-input::placeholder {
@@ -59,7 +54,7 @@
 }
 
 .search-form button {
-    border-radius: 0;
+    border-radius: 50;
     background-color: transparent;
     border: none;
     color: rgba(255, 255, 255, 0);
