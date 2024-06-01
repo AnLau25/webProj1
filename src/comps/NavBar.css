@@ -29,14 +29,22 @@
 
 .search-form .search-input {
     padding: 5px;
-    font-family: 'Urbanist', sans-serif;
     font-size: 1em;
+    font-family: 'Urbanist', sans-serif;
     border: none;
     border-bottom: 1px solid white;
     background-color: transparent;
     color: white;
     width: 200px;
     transition: width 0.4s ease, border-color 0.4s ease;
+}
+
+.search-form .search-input:focus,
+.search-form .search-input:active{
+    border-bottom: 1px solid #a31414;
+    outline: none;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(163, 20, 20, 1);
 }
 
 .search-form .search-input:focus {
@@ -47,22 +55,25 @@
 
 .search-form .search-input::placeholder {
     color: white;
+    font-family: 'Urbanist', sans-serif;
 }
 
 .search-form button {
     border-radius: 0;
     background-color: transparent;
     border: none;
-    color: white;
+    color: rgba(255, 255, 255, 0);
     font-size: 1.2em;
     cursor: pointer;
     transition: color 0.3s ease;
 }
 
 .search-form button:focus,
-.search-form button:active {
-    color: #a31414;
+.search-form button:active,
+.search-form button:hover {
     outline: none;
+    box-shadow: none;
+    background-color: transparent;
 }
 
 .navbar-nav .nav-item .dropdown-menu {
