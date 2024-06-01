@@ -1,0 +1,6 @@
+.navbar-nav .nav-link.active {
+    color: white; // or specify a color like #007bff
+  }
+
+//Import boot and keep low
+@import '../node_modules/bootstrap/scss/bootstrap';
