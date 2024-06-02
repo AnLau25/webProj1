@@ -1,0 +1,24 @@
+*{
+    font-family: 'Urbanist', sans-serif;
+}
+
+.teccard {
+    width: 288px;
+    margin: 50px;
+    overflow: hidden;
+    position: relative;
+}
+
+img{
+    width: 141px;
+    height: auto;
+
+}
+
+.desc{
+
+}
+
+.card-title{
+    font-size: 30px;
+}

@@ -1,12 +1,16 @@
 import NavBar from './comps/NavBar'
 import ServCards from './comps/ServCards'
-import Redbnt from './comps/Redbnt'
+import TecCard from './comps/TecCard'
+import LocCard from './comps/LocCard'
+import Wtebtn from './comps/Wtebtn'
+import Redbtn from './comps/Redbtn'
+
 
 function app() {
   return (
     <div>
       <NavBar />
-      <Redbnt/>
+      <TecCard/>
     </div>
   )
 }

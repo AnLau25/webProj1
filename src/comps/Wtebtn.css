@@ -1,8 +1,8 @@
 .custom-button {
     border-radius: 50px;
-    background-color: rgba(163, 20, 20, 1) !important;
+    background-color: rgba(0, 0, 0, 0) !important;
     box-shadow: 5px 5px 20px black;
-    border: none;
+    border: 3px solid white;
 }
 
 .custom-button h1 {
