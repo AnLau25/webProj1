@@ -32,13 +32,14 @@ h1,
 
 h1 {
     font-size: 50px;
+    padding-bottom: 6px;
 }
 
 .nav-link {
     font-size: 30px;
 }
 
-.intro {
+.find {
     width: auto;
     height: auto;
     padding: 20px;
@@ -47,16 +48,10 @@ h1 {
     z-index: 1;
     box-sizing: border-box;
     position: absolute;
-    transform: translateY(309px);
-    transition: all .5s cubic-bezier(.13, .62, .81, .91) 0s;
-    background: none;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1)2%, rgb(222, 24, 24)70%);
 }
 
-.intro:hover .intro {
-    transform: translateY(0);
-}
-
-.intro,
+.find,
 .card:after {
     width: 100%;
     position: absolute;
@@ -70,13 +65,22 @@ h1 {
     transition: .5s;
 }
 
-.card:hover .intro {
-    transform: translateY(0);
+.find:hover{
+    background: none;
 }
 
 .card:hover:after {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0)0%, rgb(222, 24, 24)76%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2)10%, rgb(163, 20, 20)70%);
 
+}
+
+.time{
+    text-decoration: underline;
+}
+
+.time,
+.adr{
+    font-size: 25px;
 }
 
 .nav-link {
