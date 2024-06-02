@@ -3,22 +3,36 @@
 }
 
 .teccard {
-    width: 288px;
+    display: grid;
+    width: 290px;
     margin: 50px;
     overflow: hidden;
     position: relative;
+    place-items: center;
 }
 
 img{
     width: 141px;
     height: auto;
-
 }
 
 .desc{
+    text-align: center;
 
 }
 
 .card-title{
     font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 7px;
+}
+
+.about{
+    font-size: 30px;
+}
+
+span{
+    color: rgb(222, 24, 24);
+    text-decoration: underline;
 }

@@ -19,7 +19,7 @@ const NavBar = () => {
                             <NavDropdown.Item href="#team2">Team Member 2</NavDropdown.Item>
                             <NavDropdown.Item href="#team3">Team Member 3</NavDropdown.Item>
                         </NavDropdown>
-                        <Nav.Link href="#home" className="custom-nav-link">Prendre rendez-vous</Nav.Link>
+                        <Nav.Link href="#" className="custom-nav-link">Prendre rendez-vous</Nav.Link>
                     </Nav>
                     <Form className="d-flex search-form">
                         <FormControl

@@ -10,7 +10,7 @@ function app() {
   return (
     <div>
       <NavBar />
-      <TecCard/>
+      <LocCard/>
     </div>
   )
 }
@@ -18,3 +18,4 @@ function app() {
 export default app
 
 // <ServCards imgprop='./src/assets/impact-cars 1.png' servprop='Entretien' />
+//<TecCard name='Jenson Button'/>

@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+img {
+    height: auto;
+    width: 100%;
+
+}
+
+.card {
+    border-radius: 50px;
+    height: 523px;
+    width: 334px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+    position: relative;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+h1,
+.nav-link {
+    font-weight: bold;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.nav-link {
+    font-size: 30px;
+}
+
+.intro {
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: white;
+    bottom: 0;
+    z-index: 1;
+    box-sizing: border-box;
+    position: absolute;
+    transform: translateY(309px);
+    transition: all .5s cubic-bezier(.13, .62, .81, .91) 0s;
+    background: none;
+}
+
+.intro:hover .intro {
+    transform: translateY(0);
+}
+
+.intro,
+.card:after {
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.card:after {
+    content: '';
+    height: 100%;
+    top: 0;
+    transition: .5s;
+}
+
+.card:hover .intro {
+    transform: translateY(0);
+}
+
+.card:hover:after {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.0)0%, rgb(222, 24, 24)76%);
+
+}
+
+.nav-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav-link em::before {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    margin-right: 10px;
+    vertical-align: middle;
+}
