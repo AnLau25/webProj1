@@ -4,7 +4,7 @@
     font-family: 'Urbanist', sans-serif;
 }
 
-img {
+.card img{
     height: auto;
     width: 100%;
 
@@ -24,13 +24,13 @@ img {
     cursor: pointer;
 }
 
-h1,
+.intro h1,
 .nav-link {
     font-weight: bold;
 
 }
 
-h1 {
+.intro h1 {
     font-size: 50px;
 }
 
@@ -89,7 +89,6 @@ h1 {
     content: "";
     display: inline-block;
     width: 100px;
-    /* adjust the width as needed */
     height: 1px;
     background-color: white;
     margin-right: 10px;

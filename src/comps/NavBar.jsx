@@ -1,7 +1,13 @@
 import './NavBar.css';
+import { useState } from 'react';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button, Container } from 'react-bootstrap';
 
+
 const NavBar = () => {
+    
+    const {activeLink, setactiveLink} = useState('home');
+
+    
     return (
         <Navbar className="custom-navbar" expand="lg" fixed="top">
             <Container>

@@ -93,7 +93,7 @@
     padding: 6px;
 }
 
-.navbar-nav .nav-link:hover,
+.navbar-nav .custom-nav-link:hover,
 .navbar-nav .nav-item .dropdown-toggle:hover {
     background-color: rgba(163, 20, 20, 1);
 }

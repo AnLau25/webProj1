@@ -1,12 +1,12 @@
-.custom-button {
+.rcustom-button {
     border-radius: 50px;
     background-color: rgba(163, 20, 20, 1) !important;
     box-shadow: 5px 5px 20px black;
     border: none;
 }
 
-.custom-button h1 {
-    font-size: 30px;
+.rcustom-button h1 {
+    font-size: 30px !important;
     color: white;
     font-family: 'Urbanist', sans-serif !important;
 }

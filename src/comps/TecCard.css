@@ -11,28 +11,28 @@
     place-items: center;
 }
 
-img{
+.teccard img{
     width: 141px;
     height: auto;
 }
 
-.desc{
+.teccard .desc{
     text-align: center;
 
 }
 
-.card-title{
+.teccard h1{
     font-size: 30px;
     font-weight: bold;
     text-decoration: underline;
     margin: 7px;
 }
 
-.about{
+.teccard p{
     font-size: 30px;
 }
 
-span{
+.teccard span{
     color: rgb(222, 24, 24);
     text-decoration: underline;
 }

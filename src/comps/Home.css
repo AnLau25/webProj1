@@ -1,0 +1,41 @@
+.baner {
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/assets/homebg.jpg');
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply; /* This blend mode mixes the gradient with the image */
+  }
+
+.baner h1{
+    font-weight: bold;
+    font-size: 80px;
+    color: white;
+    line-height: 1;
+    margin-bottom: 20;
+    display: block;
+}
+
+.baner p {
+    color: white !important;
+    font-size: 24px;
+    line-height: 1.5em;
+    width: 96%;
+    border-top: 2px solid white; /* Adds a line above the p */
+    padding-top: 10px; /* Adds space between the line and the text */
+}
+
+.txt-rotate > .wrap{
+    border-right: 0.08em;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px; /* Adjust the gap between buttons as needed */
+  }
+  
+  .button-container > * {
+    flex: none; /* Prevent buttons from stretching */
+  }
+  

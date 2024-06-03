@@ -1,12 +1,16 @@
-.custom-button {
+.wcustom-button {
     border-radius: 50px;
     background-color: rgba(0, 0, 0, 0) !important;
     box-shadow: 5px 5px 20px black;
     border: 3px solid white;
 }
 
-.custom-button h1 {
-    font-size: 30px;
+.wcustom-button h1 {
+    font-size: 30px !important;
     color: white;
     font-family: 'Urbanist', sans-serif !important;
+}
+
+.wcustom-button:hover{
+    border-color: white;
 }

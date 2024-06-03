@@ -4,12 +4,14 @@ import TecCard from './comps/TecCard'
 import LocCard from './comps/LocCard'
 import Wtebtn from './comps/Wtebtn'
 import Redbtn from './comps/Redbtn'
+import Home from './comps/Home'
 
 
 function app() {
   return (
     <div>
       <NavBar />
+      <Home/>
       
     </div>
   )

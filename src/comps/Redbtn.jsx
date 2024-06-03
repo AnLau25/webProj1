@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap'
 const Redbtn = ({ prop }) => {
     return (
         <div>
-            <Button type='button' className='custom-button'>
+            <Button type='rbutton' className='rcustom-button'>
                 <h1>{prop}</h1>
             </Button>
         </div>

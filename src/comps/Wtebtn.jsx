@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap'
 const Wtebtn = ({ prop }) => {
     return (
         <div>
-            <Button type='button' className='custom-button'>
+            <Button type='wbutton' className='wcustom-button'>
                 <h1>{prop}</h1>
             </Button>
         </div>
