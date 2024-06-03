@@ -1,0 +1,47 @@
+.ServPage{
+    padding: 0 0 50px 0;
+    position: relative; 
+}
+
+.Serv-box{
+    padding: 60PX 50PX;
+    margin-top: 60PX;
+}
+
+.ServPage h1{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Urbanist', sans-serif !important;
+    text-align: right;
+}
+
+.ServPage span{
+    font-size: 30px;
+    color: rgba(163, 20, 20, 1) !important;
+}
+
+.ServPage span em::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    background-color: rgba(163, 20, 20, 1) !important;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.Serv-slider{
+    margin: 0 auto;
+    position: relative;
+    
+
+}
+
+.Serv-slider .carrous-item{
+    margin: 0 auto 15px auto;
+}
+
+.Serv-box .btn{
+    display: block;
+    margin: 20px auto;
+}
