@@ -21,15 +21,16 @@
 
 }
 
-.teccard h1{
-    font-size: 30px;
+.teccard h2{
+    font-size: 30px !important;
     font-weight: bold;
     text-decoration: underline;
     margin: 7px;
 }
 
 .teccard p{
-    font-size: 30px;
+    font-size: 30px !important;
+    color: black !important;
 }
 
 .teccard span{

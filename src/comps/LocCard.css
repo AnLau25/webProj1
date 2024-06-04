@@ -89,7 +89,7 @@
     text-decoration: none;
 }
 
-.nav-link em::before {
+.lcard .nav-link em::before {
     content: "";
     display: inline-block;
     width: 100px;

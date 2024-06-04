@@ -85,7 +85,7 @@
     text-decoration: none;
 }
 
-.nav-link em::before {
+.nav-link .servType::before {
     content: "";
     display: inline-block;
     width: 100px;
