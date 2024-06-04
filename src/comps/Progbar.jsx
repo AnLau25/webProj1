@@ -1,4 +1,5 @@
 import React from 'react'
+import { ProgressBar } from "react-step-progress-bar";
 import './Progbar.css'
 
 const Progbar = () => {
@@ -9,29 +10,23 @@ const Progbar = () => {
         >
             <Step transition="scale">
                 {({ accomplished }) => (
-                    <img
-                        style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-                        width="30"
-                        src="https://vignette.wikia.nocookie.net/pkmnshuffle/images/9/9d/Pichu.png/revision/latest?cb=20170407222851"
-                    />
+                    <div className={`step (${accomplished ? "compleated" : ""})`}>
+                        1
+                    </div>
                 )}
             </Step>
             <Step transition="scale">
                 {({ accomplished }) => (
-                    <img
-                        style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-                        width="30"
-                        src="https://vignette.wikia.nocookie.net/pkmnshuffle/images/9/97/Pikachu_%28Smiling%29.png/revision/latest?cb=20170410234508"
-                    />
+                    <div className={`step (${accomplished ? "compleated" : ""})`}>
+                        2
+                    </div>
                 )}
             </Step>
             <Step transition="scale">
                 {({ accomplished }) => (
-                    <img
-                        style={{ filter: `grayscale(${accomplished ? 0 : 80}%)` }}
-                        width="30"
-                        src="https://orig00.deviantart.net/493a/f/2017/095/5/4/raichu_icon_by_pokemonshuffle_icons-db4ryym.png"
-                    />
+                    <div className={`step (${accomplished ? "compleated" : ""})`}>
+                        3
+                    </div>
                 )}
             </Step>
         </ProgressBar>
