@@ -9,14 +9,14 @@ import Servspage from './comps/Servspage'
 import Experts from './comps/Experts'
 import Rndvs from './comps/Rndvs'
 import Progbar from './comps/Progbar'
+import RedCard from './comps/RedCard'
 
 
 function app() {
   return (
     <div>
       <NavBar />
-      <Progbar/>
-      
+      <RedCard/>
     </div>
   )
 }

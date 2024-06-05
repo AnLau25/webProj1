@@ -1,0 +1,56 @@
+.Rcard {
+    background-color: rgba(163, 20, 20, 1);
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    height: 590px;
+    width: 450px;
+    font-family: 'Urbanist', sans-serif !important;
+}
+
+.Rcard h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li.bold {
+    font-weight: bold;
+}
+
+.contact ul li {
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.contact ul li img {
+    margin-right: 10px;
+    width: 45px; /* Resized image width */
+    height: 45px; /* Resized image height */
+}
+
+.contact ul li.adr div {
+    display: flex;
+    flex-direction: column;
+    font-weight: normal; /* Ensures the address section is not bold */
+}
+
+.socials {
+    display: flex;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.socials a img {
+    width: 62px;
+    height: 62px;
+    margin-right: 20px;
+}
