@@ -1,4 +1,4 @@
-.Rcard {
+.red-card {
     background-color: rgba(163, 20, 20, 1);
     color: white;
     padding: 20px;
@@ -8,38 +8,38 @@
     font-family: 'Urbanist', sans-serif !important;
 }
 
-.Rcard h1 {
-    font-size: 30px;
+.red-card__header {
+    font-size: 30px !important;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 30px !important;
     margin-top: 20px;
     text-decoration: underline;
     text-align: left;
 }
 
-.contact ul {
+.red-card__contact-list {
     list-style: none;
     padding: 0;
 }
 
-.contact ul li.bold {
+.red-card__contact-list-item.bold {
     font-weight: bold;
 }
 
-.contact ul li {
+.red-card__contact-list-item {
     display: flex;
-    font-size: 20px;
+    font-size: 20px !important;
     align-items: center;
     margin-bottom: 45px;
 }
 
-.contact ul li img {
+.red-card__contact-list-item img {
     margin-right: 10px;
-    width: 50px; /* Resized image width */
-    height: 50px; /* Resized image height */
+    width: 50px;
+    height: 50px;
 }
 
-.contact ul li.adr div {
+.red-card__address div {
     display: flex;
     flex-direction: column;
     font-weight: normal; 
@@ -47,13 +47,13 @@
     text-align: left;
 }
 
-.socials {
+.red-card__socials {
     display: flex;
     justify-content: left;
     margin-top: 30px;
 }
 
-.socials a img {
+.red-card__socials a img {
     width: 62px;
     height: 62px;
     margin-right: 20px;

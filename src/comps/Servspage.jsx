@@ -1,15 +1,14 @@
-import React from 'react'
-import './ServsPage.css'
+import React from 'react';
+import './ServsPage.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Redbtn from './Redbtn'
-import ServCards from './ServCards'
+import Redbtn from './Redbtn';
+import ServCards from './ServCards';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Servspage = () => {
     const responsive = {
         superLargeDesktop: {
-            // the naming can be any, depends on you.
             breakpoint: { max: 4000, min: 3000 },
             items: 5
         },
@@ -28,31 +27,32 @@ const Servspage = () => {
     };
 
     return (
-
-        <section className='ServPage' id='ServPage' >
-            <Container>
-                <Row>
-                    <Col>
-                        <div className='Serv-box'>
-                            <h1><span><em>Tous nos services</em></span>SERVICES OFFERTS DANS TOUS NOS LOCAUX, QUALITÉ GARANTIE</h1>
-                            <Carousel responsive={responsive} infinite={true} className='Serv-slider'>
-                                <ServCards className='carrous-item' imgprop='./src/assets/Serv_Entretien.png' servprop='Entretien' />
-                                <ServCards className='carrous-item' imgprop='./src/assets/Serv_Roues.png' servprop='Roues' />
-                                <ServCards className='carrous-item' imgprop='./src/assets/Serv_Freins.png' servprop='Freins' />
-                                <ServCards className='carrous-item' imgprop='./src/assets/Serv_Paint.png' servprop='Peinture' />
-                                <ServCards className='carrous-item' imgprop='./src/assets/Serv_Motor.png' servprop='Moteur' />
-                                <ServCards className='carrous-item' imgprop='./src/assets/Serv_Bod.png' servprop='Corps' />
-                                <ServCards className='carrous-item' imgprop='./src/assets/Serv_Dash.png' servprop='Tableau de bord' />
-                                <ServCards className='carrous-item' imgprop='./src/assets/Serv_Fluid.png' servprop='Fluides' />
-                            </Carousel>
-                            <Redbtn className='btn' prop={'Estimez vos frais'}/>
-                        </div>
-                    </Col>
-                </Row>
-            </Container>
-
+        <section className='servspage-ServPage' id='ServPage'>
+            <img src='./src/assets/TopReg.png' alt="Header" className="servspage-header-image" />
+            <div className='servspage-content'>
+                <Container>
+                    <Row>
+                        <Col>
+                            <div className='servspage-Serv-box'>
+                            <h1 className="servspage-title"><span><em>Tous nos services</em></span>SERVICES OFFERTS DANS TOUS NOS LOCAUX, QUALITÉ GARANTIE</h1>
+                                <Carousel responsive={responsive} infinite={true} className='servspage-Serv-slider'>
+                                    <ServCards className='servspage-carrous-item' imgprop='./src/assets/Serv_Entretien.png' servprop='Entretien' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./src/assets/Serv_Roues.png' servprop='Roues' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./src/assets/Serv_Freins.png' servprop='Freins' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./src/assets/Serv_Paint.png' servprop='Peinture' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./src/assets/Serv_Motor.png' servprop='Moteur' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./src/assets/Serv_Bod.png' servprop='Corps' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./src/assets/Serv_Dash.png' servprop='Tableau de bord' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./src/assets/Serv_Fluid.png' servprop='Fluides' />
+                                </Carousel>
+                                <Redbtn className='servspage-btn' prop={'Estimez vos frais'} />
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
         </section>
-    )
+    );
 }
 
-export default Servspage
+export default Servspage;

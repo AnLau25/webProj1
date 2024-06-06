@@ -136,7 +136,7 @@ const Rndvs = () => {
             <ToastContainer position="middle-center" className="p-3 custom-toast-container">
                 <Toast onClose={() => setShowToast(false)} show={showToast} delay={3000} autohide>
                     <Toast.Header>
-                        <strong className="me-auto">Rendez-vous programmé, à bientôt !</strong>
+                        <strong className="me-auto"><em>Rendez-vous programmé, à bientôt !</em></strong>
                     </Toast.Header>
                     <Toast.Body>Pour toute modification de votre rendez-vous, n'hésitez pas à nous contacter.</Toast.Body>
                 </Toast>

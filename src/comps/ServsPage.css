@@ -1,26 +1,44 @@
-.ServPage{
+.servspage-header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative; /* Ensure the image is positioned relative to its container */
+}
+
+.servspage-ServPage {
     padding: 0 0 50px 0;
-    position: relative; 
+    position: relative;
+    margin-top: 0;
 }
 
-.Serv-box{
-    padding: 60PX 50PX;
-    margin-top: 60PX;
+.servspage-ServPage .servspage-content {
+    z-index: 1;
+    position: relative;
+    text-align: center; /* Center align the content */
 }
 
-.ServPage h1{
+.servspage-Serv-box {
+    padding: 60px 50px;
+    margin-top: 0px;
+}
+
+.servspage-ServPage .servspage-title {
     font-weight: bold;
     font-size: 50px;
     font-family: 'Urbanist', sans-serif !important;
     text-align: right;
+    position: absolute;
+    top: -65px;
+    left: 50%;
+    transform: translateX(-30%);
 }
 
-.ServPage span{
+.servspage-ServPage span {
     font-size: 30px;
     color: rgba(163, 20, 20, 1) !important;
 }
 
-.ServPage span em::after {
+.servspage-ServPage span em::after {
     content: "";
     display: inline-block;
     width: 100px;
@@ -30,18 +48,16 @@
     vertical-align: middle;
 }
 
-.Serv-slider{
+.servspage-Serv-slider {
     margin: 0 auto;
     position: relative;
-    
-
 }
 
-.Serv-slider .carrous-item{
+.servspage-Serv-slider .servspage-carrous-item {
     margin: 0 auto 15px auto;
 }
 
-.Serv-box .btn{
+.servspage-Serv-box .servspage-btn {
     display: block;
     margin: 20px auto;
 }

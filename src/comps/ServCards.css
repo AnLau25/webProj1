@@ -4,10 +4,9 @@
     font-family: 'Urbanist', sans-serif;
 }
 
-.card img{
+.card img {
     height: auto;
     width: 100%;
-
 }
 
 .card {
@@ -24,21 +23,17 @@
     cursor: pointer;
 }
 
-.intro h1,
-.nav-link {
+.card .intro h1,
+.card .nav-link {
     font-weight: bold;
-
 }
 
-.intro h1 {
+.card .intro h1 {
     font-size: 50px;
+    text-align: left; /* Ensure this is aligned as desired */
 }
 
-.nav-link {
-    font-size: 30px;
-}
-
-.intro {
+.card .intro {
     width: auto;
     height: auto;
     padding: 20px;
@@ -49,14 +44,15 @@
     position: absolute;
     transform: translateY(309px);
     transition: all .5s cubic-bezier(.13, .62, .81, .91) 0s;
-    background: linear-gradient(to bottom, rgba(134, 134, 134, 0.0)2%, rgba(0, 0, 0, 0.65)13%, rgba(0, 0, 0, 0.8)45%, rgba(0, 0, 0, 1)65%);
+    background: linear-gradient(to bottom, rgba(134, 134, 134, 0.0) 2%, rgba(0, 0, 0, 0.65) 13%, rgba(0, 0, 0, 0.8) 45%, rgba(0, 0, 0, 1) 65%);
+    text-align: left; /* Ensure this is aligned as desired */
 }
 
-.intro:hover .intro {
+.card .intro:hover .intro {
     transform: translateY(0);
 }
 
-.intro,
+.card .intro,
 .card:after {
     width: 100%;
     position: absolute;
@@ -75,14 +71,15 @@
 }
 
 .card:hover:after {
-    background: linear-gradient(to bottom, rgba(134, 134, 134, 0)4%, rgba(0, 0, 0, 0.40)30%, rgba(0, 0, 0, 0.70)50%, rgba(0, 0, 0, 0.80)59%);
-
+    background: linear-gradient(to bottom, rgba(134, 134, 134, 0) 4%, rgba(0, 0, 0, 0.40) 30%, rgba(0, 0, 0, 0.70) 50%, rgba(0, 0, 0, 0.80) 59%);
 }
 
-.nav-link {
+.card .nav-link {
     position: relative;
     display: inline-block;
     text-decoration: none;
+    font-size: 25px;
+    margin-top: 5px;
 }
 
 .nav-link .servType::before {

@@ -1,5 +1,19 @@
-.experts{
-    margin-top: 150px;
+.header-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.experts {
+    margin-top: 0;
+    position: relative;
+}
+
+.experts .content {
+    margin-top: -70px; 
+    margin-bottom: 30px;
+    z-index: 1; 
+    position: relative;
 }
 
 .experts .subs {
@@ -21,7 +35,6 @@
     align-items: center; /* Center align items vertically */
     justify-content: flex-end; /* Align content to the right */
 }
-
 
 .experts .subs em:first-child::before {
     content: "";
@@ -98,4 +111,5 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: 20px;
 }

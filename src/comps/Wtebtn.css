@@ -5,12 +5,12 @@
     border: 3px solid white;
 }
 
-.wcustom-button h1 {
+.wcustom-button .wcustom-button-title {
     font-size: 30px !important;
     color: white;
     font-family: 'Urbanist', sans-serif !important;
 }
 
-.wcustom-button:hover{
+.wcustom-button:hover {
     border-color: white;
 }

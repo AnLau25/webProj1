@@ -6,7 +6,7 @@ const Redbtn = ({ prop, onClick }) => {
     return (
         <div>
             <Button type='button' className='rcustom-button' onClick={onClick}>
-                <h1>{prop}</h1>
+                <h3 className='rcustom-button-title'>{prop}</h3>
             </Button>
         </div>
     );
