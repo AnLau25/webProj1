@@ -11,8 +11,10 @@
 .Rcard h1 {
     font-size: 30px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-top: 20px;
+    text-decoration: underline;
+    text-align: left;
 }
 
 .contact ul {
@@ -33,20 +35,22 @@
 
 .contact ul li img {
     margin-right: 10px;
-    width: 45px; /* Resized image width */
-    height: 45px; /* Resized image height */
+    width: 50px; /* Resized image width */
+    height: 50px; /* Resized image height */
 }
 
 .contact ul li.adr div {
     display: flex;
     flex-direction: column;
-    font-weight: normal; /* Ensures the address section is not bold */
+    font-weight: normal; 
+    text-decoration: underline;
+    text-align: left;
 }
 
 .socials {
     display: flex;
     justify-content: left;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .socials a img {

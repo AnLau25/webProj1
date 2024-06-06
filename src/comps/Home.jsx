@@ -11,7 +11,7 @@ const Home = () => {
   const toRotate = ['AUTOMOBILE', 'DE SUV', 'DE MINI', 'DE SPORTIVES'];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const period = 1500;
+  const period = 500;
 
   useEffect(() => {
     let ticker = setInterval(() => {
