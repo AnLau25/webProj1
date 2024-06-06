@@ -1,0 +1,49 @@
+.LocFind {
+    width: 100%;
+    height: 955px;
+    background: black;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;   
+}
+
+.LocFind .locTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 50px; /* Adjust the space between the titleContainers as needed */
+}
+
+.LocFind .locTitle .titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.LocFind .locTitle h1{
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    margin: 0;
+}
+
+.LocFind .locTitle span {
+    color: rgba(163, 20, 20, 1);
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 10px; /* Adjust the space between the text and span elements */
+}
+
+.LocFind .Cardslgn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between cards as needed */
+}
