@@ -10,16 +10,14 @@ import Experts from './comps/Experts'
 import Rndvs from './comps/Rndvs'
 import Progbar from './comps/Progbar'
 import RedCard from './comps/RedCard'
-
+import Footer from './comps/Footer'
 
 function app() {
   return (
     <div>
       <NavBar />
-      <Home/>
-      <Servspage/>
-      <Experts/>
       <Rndvs/>
+      <Footer/>
     </div>
   )
 }
@@ -32,3 +30,7 @@ export default app
 //<ServCards imgprop='./src/assets/impact-cars 1.png' servprop='Entretien' />
 //<TecCard name='Jenson Button'/>
 //<LocCard imgprop='./src/assets/LocNepImg.png' loc='Nepean' t1='LunVen    8h00 - 20h00' t2='SamDim 9h00 - 17h00' adr='33 Rue Lamagie, K1K 3F3' />
+/*<Home/>
+  <Servspage/>
+  <Experts/>
+  <Rndvs/>*/

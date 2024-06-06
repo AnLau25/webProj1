@@ -1,0 +1,58 @@
+.footer {
+    background-image: url('./src/assets/BtmReg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer .container {
+    height: 170px;
+    width: 100%; /* Ensure the container takes the full width */
+}
+
+.footer-content {
+    width: 100%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-end; 
+}
+
+.left-content {
+    text-align: left;
+    margin-top: 90px;
+    transform: translateX(-70%);
+    color: white;
+}
+
+.logo-placeholder {
+    font-weight: bold;
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 40px;
+}
+
+.right-content {
+    display: flex;
+    align-items: flex-end; 
+    margin-left: auto; 
+    margin-top: 60px!important; 
+    transform: translateX( 60%);
+    
+}
+
+.social-icon {
+    margin-left: 10px;
+}
+
+.social-icon img {
+    width: 86px;
+    height: 86px;
+    margin-bottom: 30px;
+    transition: transform 0.3s;
+}
+
+.social-icon:hover img {
+    transform: scale(1.1);
+}

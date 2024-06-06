@@ -57,4 +57,9 @@
     width: 62px;
     height: 62px;
     margin-right: 20px;
+    transition: transform 0.3s;
+}
+
+.red-card__socials a img:hover{
+    transform: scale(1.1);
 }
