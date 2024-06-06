@@ -11,13 +11,14 @@ import Rndvs from './comps/Rndvs'
 import Progbar from './comps/Progbar'
 import RedCard from './comps/RedCard'
 import Footer from './comps/Footer'
+import QundsA from './comps/QundsA'
+import LocFind from './comps/LocFind'
 
 function app() {
   return (
     <div>
       <NavBar />
-      <Rndvs/>
-      <Footer/>
+      <LocFind/>
     </div>
   )
 }
@@ -33,4 +34,6 @@ export default app
 /*<Home/>
   <Servspage/>
   <Experts/>
-  <Rndvs/>*/
+  <QundsA/>
+  <Rndvs/>
+  <Footer/>*/
