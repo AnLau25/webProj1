@@ -14,12 +14,13 @@ import Footer from './comps/Footer'
 import QundsA from './comps/QundsA'
 import LocFind from './comps/LocFind'
 import AbtUs from './comps/AbtUs'
+import Calc from './comps/Calc'
 
 function app() {
   return (
     <div>
       <NavBar />
-      <Home/>    
+      <Calc/>   
     </div>
   )
 }

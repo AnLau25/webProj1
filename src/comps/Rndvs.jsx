@@ -20,10 +20,8 @@ const Rndvs = () => {
         const selectedSite = event.target.value;
         setSite(selectedSite);
 
-        // Reset selected expert
         setSelectedExpert('');
 
-        // Update experts based on the selected site
         if (selectedSite === 'Nepean') {
             setExperts(['Fernando Alonso', 'Jenson Button', 'Kimi Räikkönen']);
         } else if (selectedSite === 'Orléans') {
