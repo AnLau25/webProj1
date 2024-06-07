@@ -1,6 +1,6 @@
 import './NavBar.css';
 import { useState } from 'react';
-import { Navbar, Nav, NavDropdown, Form, FormControl, Button, Container } from 'react-bootstrap';
+import { Navbar, Nav, NavDropdown, Button, Container } from 'react-bootstrap';
 
 
 const NavBar = () => {
@@ -27,17 +27,6 @@ const NavBar = () => {
                         </NavDropdown>
                         <Nav.Link href="#" className="custom-nav-link">Prendre rendez-vous</Nav.Link>
                     </Nav>
-                    <Form className="d-flex search-form">
-                        <FormControl
-                            type="search"
-                            placeholder="Search"
-                            className="me-2 search-input"
-                            aria-label="Search"
-                        />
-                        <Button type="button" className="btn btn-outline-light">
-                            <img src='./lupa.svg' className='button-image' alt='search icon'/>
-                        </Button>
-                    </Form>
                 </Navbar.Collapse>
             </Container>
         </Navbar>

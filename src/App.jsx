@@ -13,12 +13,13 @@ import RedCard from './comps/RedCard'
 import Footer from './comps/Footer'
 import QundsA from './comps/QundsA'
 import LocFind from './comps/LocFind'
+import AbtUs from './comps/AbtUs'
 
 function app() {
   return (
     <div>
       <NavBar />
-      
+      <AbtUs/>
     </div>
   )
 }
