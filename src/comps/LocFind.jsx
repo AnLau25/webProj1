@@ -6,11 +6,11 @@ const LocFind = () => {
     return (
         <section className='LocFind' id='LocFind'>
             <div className='locTitle'>
-                <div className='titleContainer'>
+                <div className='titleCont1'>
                     <h1><em>DEUX SITES |</em></h1>
                     <span>Pourquoi nous confier votre voiture ?</span>
                 </div>
-                <div className='titleContainer'>
+                <div className='titleCont2'>
                     <h1><em>DEUX ÉQUIPES</em></h1>
                     <h1><em>D'EXCELLENCE</em></h1>
                 </div>

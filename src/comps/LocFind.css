@@ -16,21 +16,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 50px;
-    gap: 50px; /* Adjust the space between the titleContainers as needed */
+    margin-top: 200px;
+    margin-bottom: 10px;
+    gap: 20px; 
 }
 
-.LocFind .locTitle .titleContainer {
+.LocFind .locTitle .titleCont1 {
+    transform: translateY(-18px); /* Move the entire titleCont1 up by 20px */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: flex-start; 
 }
 
-.LocFind .locTitle h1{
+.LocFind .locTitle h1 {
     color: white;
     font-weight: bold;
     font-size: 80px;
+}
+
+.LocFind .locTitle .titleCont2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+}
+
+.LocFind .locTitle .titleCont2 h1 {
     margin: 0;
 }
 
@@ -38,12 +48,12 @@
     color: rgba(163, 20, 20, 1);
     font-size: 30px;
     text-decoration: underline;
-    margin-top: 10px; /* Adjust the space between the text and span elements */
+    margin-top: 8px; 
 }
 
 .LocFind .Cardslgn {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Adjust the gap between cards as needed */
+    gap: 200px; 
 }

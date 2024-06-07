@@ -18,7 +18,7 @@ function app() {
   return (
     <div>
       <NavBar />
-      <LocFind/>
+      
     </div>
   )
 }
@@ -33,6 +33,7 @@ export default app
 //<LocCard imgprop='./src/assets/LocNepImg.png' loc='Nepean' t1='LunVen    8h00 - 20h00' t2='SamDim 9h00 - 17h00' adr='33 Rue Lamagie, K1K 3F3' />
 /*<Home/>
   <Servspage/>
+  <LocFind/>
   <Experts/>
   <QundsA/>
   <Rndvs/>
