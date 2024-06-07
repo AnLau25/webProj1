@@ -4,8 +4,8 @@ import { Col, Container, Row, Toast, ToastContainer } from 'react-bootstrap';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import Redbtn from './Redbtn';
-import RedCard from './RedCard';
+import Redbtn from '../tools/Redbtn';
+import RedCard from '../tools/RedCard';
 
 const Rndvs = () => {
     const [site, setSite] = useState('');

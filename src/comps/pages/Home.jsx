@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
-import Redbtn from './Redbtn'
-import Wtebtn from './Wtebtn'
+import Redbtn from '../tools/Redbtn'
+import Wtebtn from '../tools/Wtebtn'
 import { useState, useEffect } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 

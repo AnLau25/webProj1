@@ -1,5 +1,5 @@
 import React from 'react'
-import LocCard from './LocCard'
+import LocCard from '../tools/LocCard'
 import './LocFind.css';
 
 const LocFind = () => {
