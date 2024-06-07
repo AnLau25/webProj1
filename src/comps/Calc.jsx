@@ -1,12 +1,13 @@
 import React, { useState, useRef } from 'react';
 import Select from 'react-select';
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import Redbtn from './Redbtn';
 import './Calc.css';
 
 const Calc = () => {
     const [type, setType] = useState('');
     const [selectedServices, setSelectedServices] = useState([]);
+    const [isCalculated, setIsCalculated] = useState(false);
     const formRef = useRef(null);
 
     const handleTypeChange = (event) => {
@@ -26,6 +27,12 @@ const Calc = () => {
         }
     };
 
+    const handleCalculate = (event) => {
+        event.preventDefault(); // Prevent the form from submitting
+        setIsCalculated(true);
+        handleClearForm();
+    };
+
     const serviceOptions = [
         { value: 'Entretien', label: 'Entretien' },
         { value: 'Freins', label: 'Freins' },
@@ -38,15 +45,17 @@ const Calc = () => {
 
     return (
         <section className='Calc' id='calc'>
-            <p className='oves'><em>Estimez vos frais</em></p>
-            <h1><em>CALCULATEUR DE FRAIS</em></h1>
-            <p className='subs'>Veuillez noter qu'il s'agit d'une estimation et que chaque cas aura des prix spécifiques.</p>
+            <div className='Calchead'>
+                <p className='oves'><em>Estimez vos frais</em></p>
+                <h1><em>CALCULATEUR DE FRAIS</em></h1>
+                <p className='subs'>Veuillez noter qu'il s'agit d'une estimation et que chaque cas aura des prix spécifiques.</p>
+            </div>
             <Container className='h-100 form-container'>
                 <Row className='h-100 align-items-center justify-content-center'>
-                    <Col md={7} className='form-section'>
+                    <Col md={7} className='form-space'>
                         <form ref={formRef}>
                             <Row>
-                                <Col sm={12} className='px-1 form-element'>
+                                <Col sm={6} className='px-1 form-element slct'>
                                     <Select
                                         isMulti
                                         name="services"
@@ -59,7 +68,7 @@ const Calc = () => {
                                     />
                                 </Col>
                                 <Col sm={6} className='px-1 form-element'>
-                                    <select className="form-control custom-select" value={type} onChange={handleTypeChange}>
+                                    <select className="form-control custom-select slct" value={type} onChange={handleTypeChange}>
                                         <option value="" disabled>APROX TYPE DE VÉHICULE</option>
                                         <option value="Micro">Micro</option>
                                         <option value="Hatchback">Hatchback</option>
@@ -71,11 +80,11 @@ const Calc = () => {
                                     </select>
                                 </Col>
                                 <Col sm={12} className='px-1 form-element'>
-                                    <Redbtn prop="Calculer" onClick={handleClearForm} />
+                                    <Redbtn prop="Calculer" onClick={handleCalculate} />
                                 </Col>
                                 <Col sm={12} className='px-1 form-element'>
                                     <div className="total-estime">
-                                        TOTAL ESTIMÉ:
+                                        TOTAL ESTIMÉ: {isCalculated && "Erreur 404 Lupin n'a pas voulu le coder ᕕ( ᐛ )ᕗ"}
                                     </div>
                                 </Col>
                             </Row>

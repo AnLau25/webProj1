@@ -1,10 +1,16 @@
 .Calc {
     padding: 80px 0 0px 0;
-    background: linear-gradient(to bottom, black 70%, white 30%);
+    background: black;
     color: white;
-    text-align: center;
     position: relative;
-    margin-bottom: 50px;
+    width: 100%;
+    height: 955px;
+}
+
+.Calc .Calchead{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: -50px;
 }
 
 .Calc .oves {
@@ -26,65 +32,24 @@
 
 .Calc .subs {
     font-size: 20px;
-    margin-bottom: 10px;
     position: relative;
     z-index: 1;
 }
 
-.form-section {
-    background-color: white;
-    border-radius: 50px;
-    padding-right: 0;
-    width: 100%;
-    max-width: 900px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-}
-
-.form-section .form-element {
+.Calc .form-space .form-element {
     margin-bottom: 20px;
     font-family: 'Urbanist', sans-serif !important;
+    font-size: 25px;
 }
 
-.form-section form {
-    margin-left: 10px;
-    margin-top: 40px;
-}
-
-.form-section .form-element:last-child {
-    margin-top: 40px;
-    z-index: 0;
-}
-
-.Calc .react-datepicker {
-    font-family: 'Urbanist', sans-serif !important;
-}
-
-.Calc .react-datepicker__day--selected, .Calc .react-datepicker__day--keyboard-selected {
-    background-color: rgba(163, 20, 20, 0.3);
-}
-
-.Calc .react-datepicker__day--selected, .Calc .react-datepicker__day--selected:hover {
-    background-color: rgba(163, 20, 20, 1) !important;
-    color: white;
-}
-
-.Calc .react-datepicker__day:hover {
-    background-color: rgba(163, 20, 20, 0.3);
-}
-
-.Calc .react-datepicker__time-list-item--selected {
-    background-color: rgba(163, 20, 20, 1) !important;
-}
-
-.Calc .react-datepicker__day--selected.react-datepicker__day--outside-month {
-    background-color: rgba(163, 20, 20, 0.3) !important;
+.Calc .form-space .form-element .slct{
+    margin-bottom: 150px;
+    font-size: 25px;
 }
 
 .Calc .select__menu {
     background-color: #fff;
-    color: #333;
+    color:rgba(128, 128, 128, 1)!important;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -107,50 +72,24 @@
     cursor: pointer;
 }
 
-.Calc .custom-toast-container {
-    z-index: 1050;
-}
-
-.Calc .custom-toast-container .toast {
-    color: black;
-    border-radius: 50px;
-    width: 800px;
-    height: auto;
-}
-
-.Calc .custom-toast-container .toast-header {
-    background-color: #f8f9fa;
-    color: rgba(163, 20, 20, 1);
-    font-family: 'Urbanist', sans-serif !important;
-    font-weight: bold;
-    font-size: 50px;
-    background-color: white;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    justify-content: center;
-}
-
-.Calc .custom-toast-container .toast-body {
-    font-size: 30px;
-    font-family: 'Urbanist', sans-serif !important;
-}
-
-.custom-select {
-    color: rgba(128, 128, 128, 1);
-    background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg"><polyline points="0,0 70,70 140,0" fill="none" stroke="%23333" stroke-width="10" /></svg>') no-repeat right 0.75em center;
-    background-size: 1em;
+.Calc .custom-select {
+    color: rgba(128, 128, 128, 1) !important;
     font-family: inherit;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 5px;
     height: calc(1.5em + 0.75rem + 2px);
-    padding-left: 0.75em;
-    padding-right: 2.5em;
+    padding-left: 0.4em;
     background-color: white;
+    background-image: none;
+    appearance: menulist; /* Restore default appearance */
 }
 
-.total-estime {
-    font-size: 20px;
+.Calc .total-estime {
+    font-size: 25px;
     font-weight: bold;
     margin-top: 20px;
     color: rgba(163, 20, 20, 1);
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
 }

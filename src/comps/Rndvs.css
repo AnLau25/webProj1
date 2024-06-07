@@ -145,19 +145,13 @@
     font-family: 'Urbanist', sans-serif !important;      
 }
 
-.custom-select {
-    color: rgba(128, 128, 128, 1);
-    background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 140 140" xmlns="http://www.w3.org/2000/svg"><polyline points="0,0 70,70 140,0" fill="none" stroke="%23333" stroke-width="10" /></svg>') no-repeat right 0.75em center;
-    background-size: 1em;
+.Rndvs .custom-select {
+    color: rgba(128, 128, 128, 1) !important;
     font-family: inherit;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    height: calc(1.5em + 0.75rem + 2px); 
-    padding-left: 0.75em; 
-    padding-right: 2.5em; 
     background-color: white;
+    background-image: none;
+    appearance: menulist; 
 }
-
 
 /*
 .Rndvs .react-datepicker__input-container input:focus {

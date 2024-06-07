@@ -20,7 +20,6 @@ function app() {
   return (
     <div>
       <NavBar />
-      <Calc/>   
     </div>
   )
 }
@@ -39,6 +38,6 @@ export default app
   <LocFind/>
   <Experts/>
   <QundsA/>
-
+  <Calc/>  
   <Rndvs/>
   <Footer/>*/
