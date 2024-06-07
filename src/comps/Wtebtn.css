@@ -16,3 +16,7 @@
     border-color: white;
     transform: scale(1.1);
 }
+
+.wcustom-button:focus{
+    border-color: rgba(163, 20, 20, 1);
+}

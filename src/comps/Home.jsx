@@ -45,7 +45,7 @@ const Home = () => {
 
   return (
     <section className='baner' id='home'>
-      <Container>
+      <Container className='stuff'>
         <Row className='align-items-center'>
           <Col xs={12} md={6} xl={12}>
             <h1><em>{'ENTRETIEN ET RÉPARATION'}</em></h1>
