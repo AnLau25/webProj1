@@ -4,7 +4,7 @@ import './LocFind.css';
 
 const LocFind = () => {
     return (
-        <section className='LocFind' id='LocFind'>
+        <section className='LocFind' id='locFind'>
             <div className='locTitle'>
                 <div className='titleCont1'>
                     <h1><em>DEUX SITES |</em></h1>

@@ -8,7 +8,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 const Home = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ['AUTOMOBILE', 'DE SUV', 'DE MINI', 'DE SPORTIVES'];
+  const toRotate = [' AUTOMOBILES', " SUV's", ' MINIS', ' SPORTIVES'];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 500;
@@ -30,7 +30,7 @@ const Home = () => {
     setText(updatedText);
 
     if (isDeleting) {
-      setDelta(prevDelta => prevDelta / 2)
+      setDelta(prevDelta => prevDelta / 1.2)
     }
 
     if (!isDeleting && updatedText === fullText) {
@@ -39,7 +39,7 @@ const Home = () => {
     } else if (isDeleting && updatedText === '') {
       setIsDeleting(false);
       setLoopNum(loopNum + 1);
-      setDelta(500);
+      setDelta(100);
     }
   }
 
@@ -49,7 +49,7 @@ const Home = () => {
         <Row className='align-items-center'>
           <Col xs={12} md={6} xl={12}>
             <h1><em>{'ENTRETIEN ET RÉPARATION'}</em></h1>
-            <h1><span className='wrap'><em>{text}</em></span></h1>
+            <h1><em>DE</em><span className='wrap'><em>{text}</em></span></h1>
             <p>Insérez ici une brève description des valeurs de l'entreprise, de sa façon de travailler, etc. Quelque chose d'accrocheur et de convaincant.</p>
             <div className="button-container">
               <Redbtn prop='Prendre rendez-vous' />

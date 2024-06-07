@@ -27,7 +27,7 @@ const Servspage = () => {
     };
 
     return (
-        <section className='servspage-ServPage' id='ServPage'>
+        <section className='servspage-ServPage' id='servPage'>
             <img src='./src/assets/TopReg.png' alt="Header" className="servspage-header-image" />
             <div className='servspage-content'>
                 <Container>
