@@ -1,5 +1,5 @@
 import React from 'react';
-import './ServsPage.css';
+import './ServsPage.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Redbtn from '../tools/Redbtn';

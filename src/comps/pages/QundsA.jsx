@@ -1,6 +1,6 @@
 import React from 'react';
 import { Accordion, Container } from 'react-bootstrap';
-import './QundsA.css';
+import './QundsA.css'
 
 const QundsA = () => {
     return (

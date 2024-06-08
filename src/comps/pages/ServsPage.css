@@ -2,7 +2,8 @@
     width: 100%;
     height: auto;
     display: block;
-    position: relative; /* Ensure the image is positioned relative to its container */
+    position: relative;
+    margin-top: 0; /* Ensure the image is positioned relative to its container */
 }
 
 .servspage-ServPage {

@@ -1,40 +1,37 @@
-/* TecCard.css */
-* {
-    font-family: 'Urbanist', sans-serif;
-  }
-  
-  .teccard {
-    display: grid;
-    width: 290px;
-    margin: 50px;
-    overflow: hidden;
-    position: relative;
-    place-items: center;
-  }
-  
-  .teccard img {
-    width: 141px;
-    height: auto;
-  }
-  
-  .teccard .desc {
-    text-align: center;
-  }
-  
-  .teccard .teccard-title {
-    font-size: 30px !important;
-    font-weight: bold;
-    text-decoration: underline;
-    margin: 7px;
-  }
-  
-  .teccard p {
-    font-size: 30px !important;
-    color: black !important;
-  }
-  
-  .teccard span {
-    color: rgb(222, 24, 24);
-    text-decoration: underline;
-  }
-  
+ .teccard {
+   display: grid;
+   width: 290px;
+   margin: 50px;
+   overflow: hidden;
+   position: relative;
+   place-items: center;
+   font-family: 'Urbanist', sans-serif;
+ }
+
+ .teccard img {
+   width: 141px;
+   height: auto;
+ }
+
+ .teccard .desc {
+   text-align: center;
+ }
+
+ .teccard .teccard-title {
+   font-size: 30px !important;
+   font-weight: bold;
+   text-decoration: underline;
+   margin: 7px;
+   font-family: 'Urbanist', sans-serif;
+ }
+
+ .teccard p {
+   font-size: 30px !important;
+   color: black !important;
+   font-family: 'Urbanist', sans-serif;
+ }
+
+ .teccard span {
+   color: rgb(222, 24, 24);
+   text-decoration: underline;
+ }

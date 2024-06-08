@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import './Rndvs.css';
+import './Rndvs.css'
 import { Col, Container, Row, Toast, ToastContainer } from 'react-bootstrap';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';

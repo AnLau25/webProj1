@@ -1,5 +1,9 @@
 .custom-navbar {
     background-color: rgba(0, 0, 0, 0.60);
+    position: fixed; /* Change to fixed positioning */
+    width: 100%; /* Occupy full width */
+    z-index: 1000; /* Ensure it's above other content */
+    top: 0; /* Align to the top */
 }
 
 .navbar-brand {
