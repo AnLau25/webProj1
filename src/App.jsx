@@ -15,6 +15,7 @@ import QundsA from './comps/pages/QundsA'
 import LocFind from './comps/pages/LocFind'
 import AbtUs from './comps/pages/AbtUs'
 import Calc from './comps/pages/Calc'
+import Sinsout from './comps/tools/Sinsout'
 
 function app() {
   return (

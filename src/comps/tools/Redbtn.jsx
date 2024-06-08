@@ -2,11 +2,11 @@ import React from 'react';
 import './Redbtn.css';
 import { Button } from 'react-bootstrap';
 
-const Redbtn = ({ prop, onClick }) => {
+const Redbtn = ({ prop, onClick}) => {
     return (
         <div>
-            <Button type='button' className='rcustom-button' onClick={onClick}>
-                <h3 className='rcustom-button-title'>{prop}</h3>
+            <Button type='wbutton' className='rcustom-button' onClick={onClick}>
+                <h5 className='rcustom-button-title'>{prop}</h5>
             </Button>
         </div>
     );

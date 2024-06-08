@@ -15,7 +15,7 @@
 }
 
 .navbar-nav .dropdown-menu {
-    background-color: rgba(0, 0, 0, 0.47);
+    background-color: transparent;
     border: none; 
     border-radius: 0; 
     box-shadow: none; 
@@ -60,7 +60,7 @@
     color: rgba(163, 20, 20, 1);
 }
 
-.login-signup .signin-login-button:hover,
+.navbar-nav .login-signup .signin-login-button:hover,
 .navbar-nav .custom-nav-link:hover,
 .navbar-nav .dropdown-menu .dropdown-item:hover,
 .navbar-nav .nav-item .dropdown-toggle:hover {
@@ -84,4 +84,39 @@
     transition: background-color 0.3s ease;
 }
 
+.modal-content {
+    background: none;
+    border: none;
+    border-radius: 0;
+    width: 200vw;
+}
 
+.modal-body {
+    padding: 0;
+}
+
+.custom-modal .modal-dialog {
+    max-width: 80vw; /* Adjust the width as needed */
+    width: auto;
+    margin: 0 auto;
+}
+
+.custom-modal .modal-content {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    overflow: visible;
+}
+
+.custom-modal .modal-body {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure it takes full height of the viewport */
+}
+
+.custom-modal .sinsout {
+    width: 50vw; /* Ensure the width matches the original Sinsout component */
+    min-height: 480px; /* Ensure the min-height matches the original Sinsout component */
+}
