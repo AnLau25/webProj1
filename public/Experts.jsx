@@ -13,12 +13,24 @@ const Experts = () => {
             const tab = queryParams.get('tab');
             if (tab) {
                 setDefaultTab(tab);
+                scrollToSection();
             }
         }
     }, []);
 
+    useEffect(() => {
+        scrollToSection();
+    }, [defaultTab]);
+
     const handleTabSelect = (key) => {
         setDefaultTab(key);
+    };
+
+    const scrollToSection = () => {
+        const element = document.getElementById('experts');
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
     };
 
     return (
@@ -78,6 +90,6 @@ const Experts = () => {
             </div>
         </section>
     );
-}
+};
 
 export default Experts;
