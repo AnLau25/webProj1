@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import React from 'react'
-import './Experts.css'
-import TecCard from './TecCard'
-import { Container, Row, Col, Nav, Tab } from 'react-bootstrap'
+import './Experts.css';
+import TecCard from './TecCard';
+import { Container, Row, Col, Nav, Tab } from 'react-bootstrap';
 
 const Experts = () => {
-
     const [defaultTab, setDefaultTab] = useState('first');
 
     useEffect(() => {
@@ -75,7 +73,7 @@ const Experts = () => {
                 </Container>
             </div>
         </section>
-    )
+    );
 }
 
-export default Experts
+export default Experts;

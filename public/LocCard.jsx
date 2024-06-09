@@ -1,7 +1,7 @@
 import React from 'react';
 import './LocCard.css';
 
-const LocCard = ({ imgprop, loc, t1, t2, adr, tabKey}) => {
+const LocCard = ({ imgprop, loc, t1, t2, adr, tabKey }) => {
   return (
     <div className='lcard'>
       <img src={imgprop} alt={loc} />
