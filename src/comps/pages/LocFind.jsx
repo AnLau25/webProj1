@@ -1,6 +1,6 @@
 import React from 'react'
 import LocCard from '../tools/LocCard'
-import './LocFind.css'
+import '/src/App.css'
 
 const LocFind = () => {
     return (
