@@ -58,7 +58,7 @@
     gap: 200px;
 }
 
-@media (max-width: 1397px) {
+@media (max-width: 1200px) {
     .LocFind .locTitle h1 {
         font-size: 50px;
     }
