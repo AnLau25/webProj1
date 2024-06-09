@@ -23,14 +23,14 @@ footer {
 .left-content {
     text-align: left;
     margin-top: 90px;
-    transform: translateX(-70%);
+    transform: translateX(-20%);
     color: white;
 }
 
 .logo-placeholder {
     font-weight: bold;
     font-family: 'Racing Sans One', sans-serif;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .right-content {
@@ -38,7 +38,7 @@ footer {
     align-items: flex-end;
     margin-left: auto;
     margin-top: 60px;
-    transform: translateX(60%);
+    transform: translateX(30%);
 }
 
 .social-icon {
@@ -46,9 +46,9 @@ footer {
 }
 
 .social-icon img {
-    width: 86px;
-    height: 86px;
-    margin-bottom: 30px;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
     transition: transform 0.3s;
 }
 
