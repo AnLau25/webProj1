@@ -1,13 +1,13 @@
-import NavBar from '../public/NavBar'
-import Home from '../public/Home'
-import Servspage from '../public/Servspage'
-import Experts from '../public/Experts'
-import Rndvs from '../public/Rndvs'
-import Footer from '../public/Footer'
-import QundsA from '../public/QundsA'
-import LocFind from '../public/LocFind'
-import AbtUs from '../public/AbtUs'
-import Calc from '../public/Calc'
+import NavBar from './comps/NavBar'
+import Home from './comps/Home'
+import Servspage from './comps/Servspage'
+import Experts from './comps/Experts'
+import Rndvs from './comps/Rndvs'
+import Footer from './comps/Footer'
+import QundsA from './comps/QundsA'
+import LocFind from './comps/LocFind'
+import AbtUs from './comps/AbtUs'
+import Calc from './comps/Calc'
 
 function app() {
   return (
