@@ -22,7 +22,7 @@
 }
 
 .LocFind .locTitle .titleCont1 {
-    transform: translateY(-18px); /* Move the entire titleCont1 up by 18px */
+    transform: translateY(-18px);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -60,7 +60,7 @@
 
 @media (max-width: 1397px) {
     .LocFind .locTitle h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .LocFind .locTitle span {
@@ -78,16 +78,23 @@
 }
 
 @media (max-width: 768px) {
+    .LocFind .locTitle {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
     .LocFind .locTitle h1 {
-        font-size: 40px; 
+        font-size: 30px; /* Smaller font size for very small screens */
     }
 
     .LocFind .locTitle span {
-        font-size: 20px; 
+        font-size: 20px;
+        margin-top: 3px;
     }
 
     .LocFind .Cardslgn {
         flex-direction: column;
-        gap: 30px; 
+        gap: 30px;
     }
 }
