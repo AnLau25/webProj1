@@ -5,7 +5,7 @@ import Experts from './comps/Experts'
 import Rndvs from './comps/Rndvs'
 import Footer from './comps/Footer'
 import QundsA from './comps/QundsA'
-import LocFind from './comps/LocFind'
+import LocFind from '../public/LocFind'
 import AbtUs from './comps/AbtUs'
 import Calc from './comps/Calc'
 
