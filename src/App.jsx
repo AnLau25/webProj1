@@ -6,7 +6,7 @@ import Rndvs from './comps/Rndvs'
 import Footer from './comps/Footer'
 import QundsA from './comps/QundsA'
 import LocFind from '../public/LocFind'
-import AbtUs from './comps/AbtUs'
+import AbtUs from '../public/AbtUs'
 import Calc from './comps/Calc'
 
 function app() {
