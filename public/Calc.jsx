@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import Select from 'react-select';
 import { Container, Row, Col } from 'react-bootstrap';
-import RedBtnBase from './RedBtnBase';
+import RedBtnBase from '../src/comps/RedBtnBase';
 import './Calc.css'
 
 const Calc = () => {
