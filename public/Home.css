@@ -60,7 +60,7 @@
   }
 }
 
-@media (max-width: 1397px) {
+@media (min-width: 1200px) {
   .baner h1 {
     font-size: 48px; 
   }
