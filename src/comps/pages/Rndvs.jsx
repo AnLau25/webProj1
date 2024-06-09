@@ -4,8 +4,8 @@ import { Col, Container, Row, Toast, ToastContainer } from 'react-bootstrap';
 import Select from 'react-select';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import Redbtn from '../tools/Redbtn';
 import RedCard from '../tools/RedCard';
+import RedBtnBase from '../tools/RedBtnBase';
 
 const Rndvs = () => {
     const [site, setSite] = useState('');
@@ -123,7 +123,7 @@ const Rndvs = () => {
                                         />
                                     </Col>
                                     <Col sm={12} className='px-1 form-element'>
-                                        <Redbtn prop="Prendre rendez-vous" onClick={handleClearForm} href="#"/>
+                                        <RedBtnBase prop="Prendre rendez-vous" onClick={handleClearForm} href="#"/>
                                     </Col>
                                 </Row>
                             </form>

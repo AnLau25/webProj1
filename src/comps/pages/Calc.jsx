@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import Select from 'react-select';
 import { Container, Row, Col } from 'react-bootstrap';
-import Redbtn from '../tools/Redbtn';
+import RedBtnBase from '../tools/RedBtnBase';
 import './Calc.css'
 
 const Calc = () => {
@@ -80,7 +80,7 @@ const Calc = () => {
                                     </select>
                                 </Col>
                                 <Col sm={12} className='px-1 form-element'>
-                                    <Redbtn prop="Calculer" onClick={handleCalculate} />
+                                    <RedBtnBase prop="Calculer" onClick={handleCalculate} />
                                 </Col>
                                 <Col sm={12} className='px-1 form-element'>
                                     <div className="total-estime">
