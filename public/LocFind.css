@@ -58,7 +58,7 @@
     gap: 200px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1397px) {
     .LocFind .locTitle h1 {
         font-size: 50px;
     }
@@ -73,13 +73,8 @@
     }
 
     .LocFind .Cardslgn {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         gap: 50px;
     }
-    
-    
 }
 
 @media (max-width: 768px) {
