@@ -16,4 +16,347 @@ body{
     position: relative;
 }
 
+.AboutUs {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 50px;
+    color: white;
+    height: 100%;
+}
+
+.AboutUs .imgsfloat {
+    position: relative;
+    width: 50%;
+    margin-top: 150px;
+    left: 100px;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.AboutUs .img1 {
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    width: 40%;
+    z-index: 1;
+}
+
+.AboutUs .img2 {
+    position: absolute;
+    left: 50px;
+    top: 0;
+    width: 80%;
+}
+
+.AboutUs.info {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 130px;
+}
+
+.AboutUs .AbtTitle p {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.AboutUs .AbtTitle p::after {
+    content: "";
+    display: inline-block;
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.AboutUs .AbtTitle h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.AboutUs .txt {
+    margin: 30px 0;
+}
+
+.AboutUs .txt h2 {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.AboutUs .txt h2 img {
+    margin-right: 20px;
+}
+
+.AboutUs .txt p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left: 80px;
+}
+
+.info .wbtn {
+    align-self: flex-start;
+    margin-top: 30px;
+    margin-left: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .AboutUs {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .AboutUs .imgsfloat {
+        display: none;
+    }
+
+    .AboutUs .img1,
+    .AboutUs .img2 {
+        position: static;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .AboutUs .info {
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-top: 30px;
+    }
+
+    .AboutUs .txt p {
+        padding-left: 0;
+    }
+
+    .AboutUs .info .wbtn {
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 1397px) {
+    .AboutUs .AboutUs {
+        padding: 0px;
+    }
+
+
+    .AboutUs .imgsfloat {
+        margin-top: 110px;
+        left: 50px;
+        width: 45%;
+    }
+
+    .AboutUs .txt p {
+        font-size: 17px;
+    }
+
+    .AboutUs .info {
+        width: 60%;
+    }
+
+    .AboutUs .info .wbtn {
+        margin-top: 20px;
+    }
+
+    .AboutUs .AbtTitle p {
+        font-size: 20px;
+    }
+
+    .AboutUs .AbtTitle h1 {
+        font-size: 30px;
+    }
+
+    .AboutUs .txt h2 {
+        font-size: 25px;
+    }
+
+}
+
+.Calc {
+    padding: 80px 0 0px 0;
+    background: black;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 955px;
+}
+
+.Calc .Calchead {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.Calc .oves {
+    color: rgba(163, 20, 20, 1);
+    font-size: 20px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.Calc h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.Calc .subs {
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.Calc .form-space .form-element {
+    margin-bottom: 20px;
+    font-family: 'Urbanist', sans-serif !important;
+    font-size: 25px;
+}
+
+.Calc .form-space .form-element .slct {
+    margin-bottom: 150px;
+    font-size: 25px;
+}
+
+.Calc .select__menu {
+    background-color: #fff;
+    color: rgba(128, 128, 128, 1) !important;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.Calc .select__multi-value {
+    background-color: rgba(163, 20, 20, 1);
+    font-weight: bold;
+    color: white;
+    border-radius: 50px;
+    padding: 2px 5px;
+}
+
+.Calc .select__multi-value__label {
+    font-weight: bold;
+    color: white;
+}
+
+.Calc .select__multi-value__remove {
+    color: #fff;
+    cursor: pointer;
+}
+
+.Calc .custom-select {
+    color: rgba(128, 128, 128, 1) !important;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding-left: 0.4em;
+    background-color: white;
+    background-image: none;
+    appearance: menulist; /* Restore default appearance */
+}
+
+.Calc .total-estime {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: rgba(163, 20, 20, 1);
+    background-color: white;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+
+
+@media (max-width: 1397px) {   
+    .Calc .Calchead {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .Calc .subs {
+        font-size: 20px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: -200px;
+    }
+    
+    .Calc .form-space .form-element .slct {
+        margin-bottom: 70px;
+    }
+    .Calc .total-estime {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .Calc .Calchead {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .Calc .form-space .form-element .slct {
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    .Calc .total-estime {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .Calc {
+        padding: 40px 10px;
+        height: auto;
+    }
+    .Calc .Calchead {
+        margin-top: 40px;
+        margin-bottom: -30px;
+    }
+    .Calc .oves {
+        font-size: 18px;
+    }
+    .Calc h1 {
+        font-size: 30px;
+    }
+    .Calc .subs {
+        font-size: 16px;
+    }
+    .Calc .form-space .form-element {
+        font-size: 18px;
+    }
+    .Calc .form-space .form-element .slct {
+        margin-bottom: 50px;
+        font-size: 18px;
+    }
+    .Calc .total-estime {
+        font-size: 18px;
+        padding: 10px;
+    }
+}
 
