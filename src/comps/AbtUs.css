@@ -136,14 +136,14 @@
     }
 }
 
-@media (max-width: 1398px) {
+@media (max-width: 1397px) {
     .AboutUs .AboutUs {
         padding: 0px;
     }
 
 
     .AboutUs .imgsfloat {
-        margin-top: 110px;
+        margin-top: 90px;
         left: 50px;
         width: 45%;
     }
@@ -154,6 +154,7 @@
 
     .AboutUs .info {
         width: 60%;
+        margin-top: 60px;
     }
 
     .AboutUs .info .wbtn {
