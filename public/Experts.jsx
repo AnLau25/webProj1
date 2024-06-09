@@ -17,6 +17,10 @@ const Experts = () => {
         }
     }, []);
 
+    const handleTabSelect = (key) => {
+        setDefaultTab(key);
+    };
+
     return (
         <section className='experts' id='experts'>
             <img src='TopReg.png' alt="Header" className="header-image" />
@@ -24,7 +28,7 @@ const Experts = () => {
                 <Container>
                     <Row>
                         <Col>
-                            <Tab.Container id='exp-toggle' activeKey={defaultTab}>
+                            <Tab.Container id='exp-toggle' activeKey={defaultTab} onSelect={handleTabSelect}>
                                 <div className="right-align">
                                     <Nav variant='pills'>
                                         <Nav.Item>
