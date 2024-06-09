@@ -60,7 +60,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1397px) {
   .baner h1 {
     font-size: 48px; 
   }
@@ -70,7 +70,7 @@
   }
 
   .baner .stuff {
-    margin-top: 200px;
+    margin-top: 250px;
   }
 }
 
