@@ -9,7 +9,7 @@
 
 .Calc .Calchead {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .Calc .oves {
@@ -33,6 +33,7 @@
     font-size: 20px;
     position: relative;
     z-index: 1;
+    margin-bottom: -170px;
 }
 
 .Calc .form-space .form-element {
@@ -42,7 +43,7 @@
 }
 
 .Calc .form-space .form-element .slct {
-    margin-bottom: 150px;
+    margin-bottom: 10px;
     font-size: 25px;
 }
 
