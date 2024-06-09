@@ -28,6 +28,7 @@ const Experts = () => {
 
     const handleTabSelect = (key) => {
         setDefaultTab(key);
+        window.location.hash = `#experts?tab=${key}`;
     };
 
     return (
