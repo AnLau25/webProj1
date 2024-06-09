@@ -96,7 +96,37 @@
     /* Remove any borders */
 }
 
-/* Media Queries */
+@media (max-width: 1398px) {
+    .QundsA .qundsaHead h1 {
+        font-size: 40px;
+    }
+
+    .QundsA .qundsaHead p {
+        font-size: 20px;
+    }
+
+    .QundsA .accordion-button {
+        font-size: 25px;
+        height: 70px;
+    }
+
+    .QundsA .accordion-button::before {
+        width: 24px;
+        height: 24px;
+        right: 5px;
+    }
+
+    .QundsA .Acord-container {
+        margin-top: 70px;
+    }
+
+    .QundsA .accordion-body {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+}
+
+/* For screens up to 992px */
 @media (max-width: 992px) {
     .QundsA {
         height: auto;
@@ -129,6 +159,7 @@
     }
 }
 
+/* For screens up to 768px */
 @media (max-width: 768px) {
     .QundsA .qundsaHead h1 {
         font-size: 30px;
@@ -151,36 +182,6 @@
 
     .QundsA .accordion-body {
         font-size: 16px;
-        padding-left: 20px;
-    }
-}
-
-@media (max-width: 1397px) {
-    .QundsA .qundsaHead h1 {
-        font-size: 40px;
-    }
-
-    .QundsA .qundsaHead p {
-        font-size: 20px;
-    }
-
-    .QundsA .accordion-button {
-        font-size: 25px;
-        height: 70px;
-    }
-
-    .QundsA .accordion-button::before {
-        width: 24px;
-        height: 24px;
-        right: 5px;
-    }
-
-    .QundsA .Acord-container {
-        margin-top: 70px;
-    }
-
-    .QundsA .accordion-body {
-        font-size: 20px;
         padding-left: 20px;
     }
 }

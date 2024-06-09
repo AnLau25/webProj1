@@ -3,7 +3,7 @@ import './ServsPage.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Redbtn from './Redbtn';
-import ServCards from '../src/comps/ServCards';
+import ServCards from './ServCards';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Servspage = () => {
