@@ -57,7 +57,7 @@ footer {
 }
 
 /* Media Queries */
-@media (max-width: 1397px) {
+@media (max-width: 1400px) {
     .left-content {
         text-align: left;
         margin-top: 90px;
