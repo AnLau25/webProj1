@@ -93,8 +93,6 @@
     border-radius: 50px;
 }
 
-
-
 @media (max-width: 1398px) {   
     .Calc .Calchead {
         text-align: center;
@@ -117,7 +115,6 @@
     }
 }
 
-
 @media (max-width: 768px) {
     .Calc .Calchead {
         text-align: center;
@@ -133,7 +130,6 @@
         padding: 10px;
     }
 }
-
 
 @media (max-width: 576px) {
     .Calc {
