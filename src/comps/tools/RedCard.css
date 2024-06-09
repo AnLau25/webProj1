@@ -63,3 +63,10 @@
 .red-card__socials a img:hover{
     transform: scale(1.1);
 }
+
+@media (max-width: 1397px) {
+    .red-card {
+        height: 550px;
+        width: 450px;
+    }
+}

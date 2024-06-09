@@ -1,9 +1,5 @@
 .custom-navbar {
     background-color: rgba(0, 0, 0, 0.60);
-    position: fixed; /* Change to fixed positioning */
-    width: 100%; /* Occupy full width */
-    z-index: 1000; /* Ensure it's above other content */
-    top: 0; /* Align to the top */
 }
 
 .navbar-brand {
@@ -20,11 +16,11 @@
 
 .navbar-nav .dropdown-menu {
     background-color: transparent;
-    border: none; 
-    border-radius: 0; 
-    box-shadow: none; 
-    margin-top: 0; 
-    padding: 3px; 
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 0;
+    padding: 3px;
 }
 
 .navbar-nav .dropdown-menu .dropdown-item {
@@ -32,8 +28,8 @@
     font-family: 'Urbanist', sans-serif;
     background-color: black;
     border-radius: 50px;
-    padding: 5px 5px; 
-    margin: 5px 15px; 
+    padding: 5px 5px;
+    margin: 5px 15px;
     text-align: center;
 }
 
@@ -54,13 +50,13 @@
 }
 
 .navbar-nav .custom-nav-link:focus,
-.navbar-nav .nav-item .dropdown-toggle:focus{
+.navbar-nav .nav-item .dropdown-toggle:focus {
     color: white;
     background-color: rgba(163, 20, 20, 1);
 }
 
 .navbar-brand:hover,
-.navbar-brand:focus{
+.navbar-brand:focus {
     color: rgba(163, 20, 20, 1);
 }
 
@@ -100,7 +96,8 @@
 }
 
 .custom-modal .modal-dialog {
-    max-width: 80vw; /* Adjust the width as needed */
+    max-width: 80vw;
+    /* Adjust the width as needed */
     width: auto;
     margin: 0 auto;
 }
@@ -117,10 +114,58 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Make sure it takes full height of the viewport */
+    height: 100vh;
 }
 
 .custom-modal .sinsout {
-    width: 50vw; /* Ensure the width matches the original Sinsout component */
-    min-height: 480px; /* Ensure the min-height matches the original Sinsout component */
+    width: 50vw;
+    min-height: 480px;
+}
+
+@media (min-width: 768px) {
+    .custom-nav-link{
+        font-size: 16px !important;
+    }
+    .navbar-nav .nav-item .dropdown-toggle {
+    font-size: 16px;
+    }
+    .navbar-brand {
+        font-size: 22px;
+    }
+    .login-signup .signin-login-button{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-nav-link{
+        font-size: 20px !important;
+    }
+    .navbar-nav .nav-item .dropdown-toggle {
+    font-size: 20px;
+    }
+    .navbar-brand {
+        font-size: 29px;
+    }
+    .login-signup .signin-login-button{
+        font-size: 16px;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+    .custom-nav-link{
+        font-size: 25px !important;
+    }
+    .navbar-nav .nav-item .dropdown-toggle {
+    font-size: 25px;
+    }
+    .navbar-brand {
+        font-size: 35px;
+    }
+    .login-signup .signin-login-button{
+        font-size: 20px;
+    }
+
 }

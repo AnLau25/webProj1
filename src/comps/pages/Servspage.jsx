@@ -34,7 +34,7 @@ const Servspage = () => {
                     <Row>
                         <Col>
                             <div className='servspage-Serv-box'>
-                            <h1 className="servspage-title"><span><em>Tous nos services</em></span>SERVICES OFFERTS DANS TOUS NOS LOCAUX, QUALITÉ GARANTIE</h1>
+                                <h1 className="servspage-title"><span><em>Tous nos services</em></span>SERVICES OFFERTS DANS TOUS NOS LOCAUX, QUALITÉ GARANTIE</h1>
                                 <Carousel responsive={responsive} infinite={true} className='servspage-Serv-slider'>
                                     <ServCards className='servspage-carrous-item' imgprop='./src/assets/Serv_Entretien.png' servprop='Entretien' />
                                     <ServCards className='servspage-carrous-item' imgprop='./src/assets/Serv_Roues.png' servprop='Roues' />

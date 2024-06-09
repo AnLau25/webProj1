@@ -1,6 +1,6 @@
 .LocFind {
     width: 100%;
-    height: 955px;
+    height: auto;
     background: black;
     box-sizing: border-box;
     padding-top: 100px;
@@ -9,23 +9,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;   
+    position: relative;
 }
 
 .LocFind .locTitle {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
+    margin-top: 20px;
     margin-bottom: 10px;
-    gap: 20px; 
+    gap: 20px;
 }
 
 .LocFind .locTitle .titleCont1 {
-    transform: translateY(-18px); /* Move the entire titleCont1 up by 20px */
+    transform: translateY(-18px); /* Move the entire titleCont1 up by 18px */
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
 }
 
 .LocFind .locTitle h1 {
@@ -37,7 +37,7 @@
 .LocFind .locTitle .titleCont2 {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; 
+    align-items: flex-start;
 }
 
 .LocFind .locTitle .titleCont2 h1 {
@@ -48,12 +48,51 @@
     color: rgba(163, 20, 20, 1);
     font-size: 30px;
     text-decoration: underline;
-    margin-top: 8px; 
+    margin-top: 8px;
 }
 
 .LocFind .Cardslgn {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 200px; 
+    gap: 200px;
+}
+
+@media (max-width: 1397px) {
+    .LocFind .locTitle h1 {
+        font-size: 50px;
+    }
+
+    .LocFind .locTitle span {
+        font-size: 20px;
+        margin-top: 3px;
+    }
+
+    .LocFind .locTitle {
+        gap: 10px;
+    }
+
+    .LocFind .Cardslgn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    
+    
+}
+
+@media (max-width: 768px) {
+    .LocFind .locTitle h1 {
+        font-size: 40px; 
+    }
+
+    .LocFind .locTitle span {
+        font-size: 20px; 
+    }
+
+    .LocFind .Cardslgn {
+        flex-direction: column;
+        gap: 30px; 
+    }
 }

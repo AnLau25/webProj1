@@ -47,7 +47,7 @@ const Home = () => {
     <section className='baner' id='home'>
       <Container className='stuff'>
         <Row className='align-items-center'>
-          <Col xs={12} md={6} xl={7}>
+          <Col xs={12} md={12} lg={10} xl={7} className="text-center text-md-start">
             <h1><em>{'ENTRETIEN ET RÉPARATION'}</em></h1>
             <h1><em>DE</em><span className='wrap'><em>{text}</em></span></h1>
             <p>Insérez ici une brève description des valeurs de l'entreprise, de sa façon de travailler, etc. Quelque chose d'accrocheur et de convaincant.</p>
@@ -58,9 +58,8 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-
     </section>
   )
 }
 
-export default Home
+export default Home;

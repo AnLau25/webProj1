@@ -98,3 +98,32 @@
     margin-right: 10px;
     vertical-align: middle;
 }
+
+@media (max-width: 1397px) {
+    
+    .lcard {
+        height: 450px;
+        width: 300px;
+        margin: 20px;
+    }
+    
+    .find h1 {
+        font-size: 40px;
+        padding-bottom: 6px;
+    }
+    
+    .nav-link {
+        font-size: 20px;
+    }
+    
+    .find:hover{
+        background: none;
+    }
+    
+    .time,
+    .find p{
+        font-size: 20px;
+    }
+
+    
+}

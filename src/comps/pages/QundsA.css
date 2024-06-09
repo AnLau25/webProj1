@@ -6,21 +6,20 @@
     padding-top: 100px;
     padding-bottom: 200px;
     text-align: center;
-    position: relative;    
+    position: relative;
 }
 
-.QundsA .qundsaHead{
+.QundsA .qundsaHead {
     font-family: 'Urbanist', sans-serif !important;
     font-weight: bold;
-    
 }
 
-.QundsA .qundsaHead h1{
+.QundsA .qundsaHead h1 {
     color: white;
     font-size: 80px;
 }
 
-.QundsA .qundsaHead p{
+.QundsA .qundsaHead p {
     color: rgba(163, 20, 20, 1);
     font-size: 30px;
 }
@@ -35,16 +34,16 @@
     vertical-align: middle;
 }
 
-.QundsA .Acord-container{
-    margin-top: 90px;
+.QundsA .Acord-container {
+    margin-top: 50px;
 }
 
 .QundsA .accordion-button {
-    background-color: black; 
+    background-color: black;
     color: white;
     font-family: 'Urbanist', sans-serif !important;
     font-size: 30px;
-    height: 100px; 
+    height: 100px;
     border-top: 0.5px solid white;
     border-bottom: none !important;
 }
@@ -55,19 +54,20 @@
 
 .QundsA .accordion-button::before {
     content: '';
-    background-image: url('./src/assets/ngrnj.svg'); /* Path to your custom icon */
+    background-image: url('./src/assets/ngrnj.svg');
+    /* Path to your custom icon */
     background-size: contain;
     background-repeat: no-repeat;
     width: 40px;
     height: 40px;
     position: absolute;
-    right: 15px; 
-    transition: transform 0.3s ease-in-out; 
+    right: 15px;
+    transition: transform 0.3s ease-in-out;
 }
 
 .QundsA .accordion-button:not(.collapsed) {
     background-color: black;
-    color: rgba(163, 20, 20, 1); 
+    color: rgba(163, 20, 20, 1);
     border-bottom: none !important;
 }
 
@@ -80,11 +80,10 @@
 }
 
 .QundsA .accordion-body {
-    background-color: black; 
+    background-color: black;
     color: white;
     font-size: 20px;
-    height: 100px; 
-    height: 100px; 
+    height: 100px;
     display: flex;
     justify-content: start;
     align-items: start;
@@ -93,6 +92,95 @@
 }
 
 .QundsA .accordion-item {
-    border: none !important; /* Remove any borders */
+    border: none !important;
+    /* Remove any borders */
 }
 
+/* Media Queries */
+@media (max-width: 992px) {
+    .QundsA {
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .QundsA .qundsaHead h1 {
+        font-size: 50px;
+    }
+
+    .QundsA .qundsaHead p {
+        font-size: 24px;
+    }
+
+    .QundsA .accordion-button {
+        font-size: 24px;
+        height: 80px;
+    }
+
+    .QundsA .accordion-button::before {
+        width: 30px;
+        height: 30px;
+        right: 10px;
+    }
+
+    .QundsA .accordion-body {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .QundsA .qundsaHead h1 {
+        font-size: 30px;
+    }
+
+    .QundsA .qundsaHead p {
+        font-size: 20px;
+    }
+
+    .QundsA .accordion-button {
+        font-size: 20px;
+        height: 70px;
+    }
+
+    .QundsA .accordion-button::before {
+        width: 24px;
+        height: 24px;
+        right: 5px;
+    }
+
+    .QundsA .accordion-body {
+        font-size: 16px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 1397px) {
+    .QundsA .qundsaHead h1 {
+        font-size: 40px;
+    }
+
+    .QundsA .qundsaHead p {
+        font-size: 20px;
+    }
+
+    .QundsA .accordion-button {
+        font-size: 25px;
+        height: 70px;
+    }
+
+    .QundsA .accordion-button::before {
+        width: 24px;
+        height: 24px;
+        right: 5px;
+    }
+
+    .QundsA .Acord-container {
+        margin-top: 70px;
+    }
+
+    .QundsA .accordion-body {
+        font-size: 20px;
+        padding-left: 20px;
+    }
+}

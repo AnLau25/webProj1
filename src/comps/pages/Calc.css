@@ -7,10 +7,9 @@
     height: 955px;
 }
 
-.Calc .Calchead{
+.Calc .Calchead {
     text-align: center;
     margin-top: 60px;
-    margin-bottom: -50px;
 }
 
 .Calc .oves {
@@ -42,14 +41,14 @@
     font-size: 25px;
 }
 
-.Calc .form-space .form-element .slct{
+.Calc .form-space .form-element .slct {
     margin-bottom: 150px;
     font-size: 25px;
 }
 
 .Calc .select__menu {
     background-color: #fff;
-    color:rgba(128, 128, 128, 1)!important;
+    color: rgba(128, 128, 128, 1) !important;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -92,4 +91,77 @@
     background-color: white;
     padding: 15px;
     border-radius: 50px;
+}
+
+
+
+@media (max-width: 1397px) {   
+    .Calc .Calchead {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .Calc .subs {
+        font-size: 20px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: -200px;
+    }
+    
+    .Calc .form-space .form-element .slct {
+        margin-bottom: 70px;
+    }
+    .Calc .total-estime {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .Calc .Calchead {
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .Calc .form-space .form-element .slct {
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+    .Calc .total-estime {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .Calc {
+        padding: 40px 10px;
+        height: auto;
+    }
+    .Calc .Calchead {
+        margin-top: 40px;
+        margin-bottom: -30px;
+    }
+    .Calc .oves {
+        font-size: 18px;
+    }
+    .Calc h1 {
+        font-size: 30px;
+    }
+    .Calc .subs {
+        font-size: 16px;
+    }
+    .Calc .form-space .form-element {
+        font-size: 18px;
+    }
+    .Calc .form-space .form-element .slct {
+        margin-bottom: 50px;
+        font-size: 18px;
+    }
+    .Calc .total-estime {
+        font-size: 18px;
+        padding: 10px;
+    }
 }

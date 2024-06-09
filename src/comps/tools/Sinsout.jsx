@@ -41,7 +41,7 @@ const Sinsout = ({ onClose, onSignIn }) => {
 
   const handleRedbtnClick = () => {
     onClose();
-    onSignIn(); // Assume this function will handle the sign-in logic
+    onSignIn(); 
   };
 
   return (

@@ -1,7 +1,8 @@
+import { useEffect } from 'react';
+import { Navbar, Nav, NavDropdown, Button, Container, Modal } from 'react-bootstrap';
 import './NavBar.css';
 import Sinsout from './Sinsout';
 import { useState } from 'react';
-import { Navbar, Nav, NavDropdown, Button, Container, Modal } from 'react-bootstrap';
 
 const NavBar = () => {
     const [showModal, setShowModal] = useState(false);
@@ -16,8 +17,32 @@ const NavBar = () => {
 
     const handleSignIn = () => {
         setIsSignedIn(true);
-        handleClose(); // Close the modal after signing in
+        handleClose(); 
     };
+
+    const handleNavLinkClick = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            const yOffset = 0; 
+            const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+            window.scrollTo({ top: y, behavior: 'smooth' });
+        }
+    };
+
+    useEffect(() => {
+        const handleHashChange = () => {
+            const id = window.location.hash.replace('#', '');
+            if (id) {
+                handleNavLinkClick(id);
+            }
+        };
+
+        window.addEventListener('hashchange', handleHashChange);
+
+        return () => {
+            window.removeEventListener('hashchange', handleHashChange);
+        };
+    }, []);
 
     return (
         <>
@@ -28,15 +53,16 @@ const NavBar = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mx-auto">
                             <NavDropdown title="Services" id="services-dropdown" className="no-caret">
-                                <NavDropdown.Item href="#servPage">Nos services</NavDropdown.Item>
-                                <NavDropdown.Item href="#calc">Estimer les coûts</NavDropdown.Item>
+                                <NavDropdown.Item href="#servPage" onClick={() => handleNavLinkClick('servPage')}>Nos services</NavDropdown.Item>
+                                <NavDropdown.Item href="#qundsa" onClick={() => handleNavLinkClick('qundsa')}>Foire aux questions</NavDropdown.Item>
+                                <NavDropdown.Item href="#calc" onClick={() => handleNavLinkClick('calc')}>Estimer les coûts</NavDropdown.Item>
                             </NavDropdown>
                             <NavDropdown title="Notre équipe" className="no-caret">
-                                <NavDropdown.Item href="#abtus">À propos</NavDropdown.Item>
-                                <NavDropdown.Item href="#locFind">Nos sites</NavDropdown.Item>
-                                <NavDropdown.Item href="#experts">Nos équipes</NavDropdown.Item>
+                                <NavDropdown.Item href="#abtus" onClick={() => handleNavLinkClick('abtus')}>À propos</NavDropdown.Item>
+                                <NavDropdown.Item href="#locFind" onClick={() => handleNavLinkClick('locFind')}>Nos sites</NavDropdown.Item>
+                                <NavDropdown.Item href="#experts" onClick={() => handleNavLinkClick('experts')}>Nos équipes</NavDropdown.Item>
                             </NavDropdown>
-                            <Nav.Link href="#rndvs" className="custom-nav-link">Prendre rendez-vous</Nav.Link>
+                            <Nav.Link href="#rndvs" className="custom-nav-link" onClick={() => handleNavLinkClick('rndvs')}>Prendre rendez-vous</Nav.Link>
                         </Nav>
                         <div className="login-signup">
                             {isSignedIn ? (

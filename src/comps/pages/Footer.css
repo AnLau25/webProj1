@@ -1,4 +1,4 @@
-.footer {
+footer {
     background-image: url('./src/assets/BtmReg.png');
     background-size: cover;
     background-position: center;
@@ -38,8 +38,7 @@
     align-items: flex-end; 
     margin-left: auto; 
     margin-top: 60px!important; 
-    transform: translateX( 60%);
-    
+    transform: translateX(60%);
 }
 
 .social-icon {
@@ -55,4 +54,76 @@
 
 .social-icon:hover img {
     transform: scale(1.1);
+}
+
+/* Media Queries */
+@media (max-width: 1397px) {
+    .left-content {
+        text-align: left;
+        margin-top: 90px;
+        transform: translateX(-20%);
+        color: white;
+    }
+    
+    .logo-placeholder {
+        font-weight: bold;
+        font-family: 'Racing Sans One', sans-serif;
+        font-size: 30px;
+    }
+    
+    .right-content {
+        display: flex;
+        align-items: flex-end; 
+        margin-left: auto; 
+        margin-top: 60px!important; 
+        transform: translateX(30%);
+    }
+    
+    .social-icon {
+        margin-left: 10px;
+    }
+    
+    .social-icon img {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer .container {
+        height: auto;
+    }
+    .left-content {
+        margin-top: 30px;
+    }
+    .logo-placeholder {
+        font-size: 30px;
+    }
+    .social-icon img {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 10px 0;
+    }
+    .left-content {
+        margin-top: 20px;
+    }
+    .right-content {
+        margin-top: 20px!important;
+    }
+    .logo-placeholder {
+        font-size: 25px;
+    }
+    .social-icon img {
+        width: 50px;
+        height: 50px;
+    }
+    .social-icon {
+        margin-left: 5px;
+    }
 }

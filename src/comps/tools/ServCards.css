@@ -30,7 +30,7 @@
 
 .card .intro h1 {
     font-size: 50px;
-    text-align: left; /* Ensure this is aligned as desired */
+    text-align: left;
 }
 
 .card .intro {
@@ -45,7 +45,8 @@
     transform: translateY(309px);
     transition: all .5s cubic-bezier(.13, .62, .81, .91) 0s;
     background: linear-gradient(to bottom, rgba(134, 134, 134, 0.0) 2%, rgba(0, 0, 0, 0.65) 13%, rgba(0, 0, 0, 0.8) 45%, rgba(0, 0, 0, 1) 65%);
-    text-align: left; /* Ensure this is aligned as desired */
+    text-align: left;
+    /* Ensure this is aligned as desired */
 }
 
 .card .intro:hover .intro {
@@ -90,4 +91,27 @@
     background-color: white;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+
+
+@media (min-width: 1200px) {
+    .card {
+        height: 450px;
+        width: 300px;
+        margin: 30px;
+    }
+    .card .intro {
+        transform: translateY(250px);
+    }
+
+    .card .nav-link {
+        font-size: 20px;
+    }
+
+    .card .intro h1 {
+        font-size: 40px;
+        text-align: left;
+    }
+
 }

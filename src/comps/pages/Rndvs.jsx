@@ -39,15 +39,16 @@ const Rndvs = () => {
         setSelectedServices(selectedOptions);
     };
 
-    const handleClearForm = () => {
+    const handleClearForm = (event) => {
+        event.preventDefault();  // Prevent the default form submission behavior
         if (formRef.current) {
             formRef.current.reset();
+            setShowToast(true);
             setSite('');
             setExperts([]);
             setSelectedExpert('');
             setSelectedServices([]);
             setSelectedDate(null);
-            setShowToast(true);
         }
     };
 

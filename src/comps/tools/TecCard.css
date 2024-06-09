@@ -1,37 +1,85 @@
- .teccard {
-   display: grid;
-   width: 290px;
-   margin: 50px;
-   overflow: hidden;
-   position: relative;
-   place-items: center;
-   font-family: 'Urbanist', sans-serif;
- }
+.teccard {
+  display: grid;
+  width: 290px;
+  margin: 50px;
+  overflow: hidden;
+  position: relative;
+  place-items: center;
+  font-family: 'Urbanist', sans-serif;
+}
 
- .teccard img {
-   width: 141px;
-   height: auto;
- }
+.teccard img {
+  width: 141px;
+  height: auto;
+}
 
- .teccard .desc {
-   text-align: center;
- }
+.teccard .desc {
+  text-align: center;
+}
 
- .teccard .teccard-title {
-   font-size: 30px !important;
-   font-weight: bold;
-   text-decoration: underline;
-   margin: 7px;
-   font-family: 'Urbanist', sans-serif;
- }
+.teccard .teccard-title {
+  font-size: 30px !important;
+  font-weight: bold;
+  text-decoration: underline;
+  margin: 7px;
+  font-family: 'Urbanist', sans-serif;
+}
 
- .teccard p {
-   font-size: 30px !important;
-   color: black !important;
-   font-family: 'Urbanist', sans-serif;
- }
+.teccard p {
+  font-size: 30px !important;
+  color: black !important;
+  font-family: 'Urbanist', sans-serif;
+}
 
- .teccard span {
-   color: rgb(222, 24, 24);
-   text-decoration: underline;
- }
+.teccard span {
+  color: rgb(222, 24, 24);
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .teccard {
+      width: 100%;
+      margin: 20px 0;
+  }
+
+  .teccard img {
+      width: 100%;
+      max-width: 200px; /* Adjusted max-width for smaller screens */
+  }
+
+  .teccard .desc {
+      font-size: 16px; /* Adjusted font size */
+  }
+
+  .teccard .teccard-title {
+      font-size: 24px !important;
+  }
+
+  .teccard p {
+      font-size: 16px !important;
+  }
+}
+
+@media (max-width: 1397px) {
+  .teccard {
+      width: 100%;
+      margin: 20px 0;
+  }
+
+  .teccard img {
+      width: 100%;
+      max-width: 100px; /* Adjusted max-width for smaller screens */
+  }
+
+  .teccard .desc {
+      font-size: 24px; /* Adjusted font size */
+  }
+
+  .teccard .teccard-title {
+      font-size: 25px !important;
+  }
+
+  .teccard p {
+      font-size: 25px !important;
+  }
+}
