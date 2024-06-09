@@ -1,5 +1,5 @@
 import NavBar from './comps/tools/NavBar'
-import Home from '../public/Home'
+import Home from './comps/pages/Home'
 import Servspage from './comps/pages/Servspage'
 import Experts from './comps/pages/Experts'
 import Rndvs from './comps/pages/Rndvs'
