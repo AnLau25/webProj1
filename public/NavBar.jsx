@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Navbar, Nav, NavDropdown, Button, Container, Modal } from 'react-bootstrap';
 import './NavBar.css';
-import Sinsout from './Sinsout';
+import Sinsout from '../src/comps/Sinsout';
 import { useState } from 'react';
 
 const NavBar = () => {

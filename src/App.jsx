@@ -1,4 +1,4 @@
-import NavBar from './comps/NavBar'
+import NavBar from '../public/NavBar'
 import Home from '../public/Home'
 import Servspage from '../public/Servspage'
 import Experts from '../public/Experts'

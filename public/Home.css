@@ -16,7 +16,7 @@
 
 .baner h1 {
   font-weight: bold;
-  font-size: 48px; /* 48px */
+  font-size: 48px;
   color: white;
   line-height: 1;
   margin-bottom: 20px;
@@ -60,7 +60,7 @@
   }
 }
 
-@media (max-width: 1397px) {
+@media (min-width: 1397px) {
   .baner h1 {
     font-size: 48px; 
   }
