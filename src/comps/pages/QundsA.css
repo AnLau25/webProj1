@@ -54,7 +54,7 @@
 
 .QundsA .accordion-button::before {
     content: '';
-    background-image: url('./public/ngrnj.svg');
+    background-image: url('ngrnj.svg');
     /* Path to your custom icon */
     background-size: contain;
     background-repeat: no-repeat;

@@ -8,13 +8,13 @@ const RedCard = () => {
             <div className='red-card__contact'>
                 <ul className='red-card__contact-list'>
                     <li className='red-card__contact-list-item bold'>
-                        <img src='./public/wPhone.png' alt='Phone'/>613 - 214 - 1031
+                        <img src='wPhone.png' alt='Phone'/>613 - 214 - 1031
                     </li>
                     <li className='red-card__contact-list-item bold'>
-                        <img src='./public/wMSG.png' alt='Email'/>Insertlogo@here.com
+                        <img src='wMSG.png' alt='Email'/>Insertlogo@here.com
                     </li>
                     <li className='red-card__contact-list-item red-card__address'>
-                        <img src='./public/wLoc.png' alt='Location'/>
+                        <img src='wLoc.png' alt='Location'/>
                         <div>
                             <div>33 Rue Lamagie, K1K 3F3</div>
                             <div>55 Operator Priv, K1K 5C5</div>
@@ -22,10 +22,10 @@ const RedCard = () => {
                     </li>
                 </ul>
                 <div className='red-card__socials'>
-                    <a href='#'><img src='./public/bLink.png' alt='LinkedIn' /></a>
-                    <a href='#'><img src='./public/bFace.png' alt='Facebook' /></a>
-                    <a href='#'><img src='./public/bTweet.png' alt='Twitter' /></a>
-                    <a href='#'><img src='./public/bInsta.png' alt='Instagram' /></a>
+                    <a href='#'><img src='bLink.png' alt='LinkedIn' /></a>
+                    <a href='#'><img src='bFace.png' alt='Facebook' /></a>
+                    <a href='#'><img src='bTweet.png' alt='Twitter' /></a>
+                    <a href='#'><img src='bInsta.png' alt='Instagram' /></a>
                 </div>
             </div>
         </div>
