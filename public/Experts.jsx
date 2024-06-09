@@ -4,6 +4,20 @@ import TecCard from './TecCard'
 import { Container, Row, Col, Nav, Tab } from 'react-bootstrap'
 
 const Experts = () => {
+
+    const [defaultTab, setDefaultTab] = useState('first');
+
+    useEffect(() => {
+        const hash = window.location.hash;
+        if (hash.includes('?')) {
+            const queryParams = new URLSearchParams(hash.split('?')[1]);
+            const tab = queryParams.get('tab');
+            if (tab) {
+                setDefaultTab(tab);
+            }
+        }
+    }, []);
+
     return (
         <section className='experts' id='experts'>
             <img src='TopReg.png' alt="Header" className="header-image" />
@@ -11,7 +25,7 @@ const Experts = () => {
                 <Container>
                     <Row>
                         <Col>
-                            <Tab.Container id='exp-toggle' defaultActiveKey='first'>
+                            <Tab.Container id='exp-toggle' activeKey={defaultTab}>
                                 <div className="right-align">
                                     <Nav variant='pills'>
                                         <Nav.Item>

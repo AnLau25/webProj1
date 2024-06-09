@@ -133,7 +133,7 @@ const Rndvs = () => {
                 </Row>
             </Container>
             <ToastContainer position="middle-center" className="p-3 custom-toast-container">
-                <Toast onClose={() => setShowToast(false)} show={showToast} delay={3000} autohide>
+                <Toast onClose={() => setShowToast(false)} show={showToast} delay={10000} autohide>
                     <Toast.Header>
                         <strong className="me-auto"><em>Rendez-vous programmé, à bientôt !</em></strong>
                     </Toast.Header>
