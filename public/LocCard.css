@@ -24,22 +24,22 @@
     cursor: pointer;
 }
 
-.find h1,
-.nav-link {
+.lcard .find h1,
+.lcard .nav-link {
     font-weight: bold;
 
 }
 
-.find h1 {
+.lcard .find h1 {
     font-size: 50px;
     padding-bottom: 6px;
 }
 
-.nav-link {
+.lcard .nav-link {
     font-size: 30px;
 }
 
-.find {
+.lcard .find {
     width: auto;
     height: auto;
     padding: 20px;
@@ -51,7 +51,7 @@
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1)2%, rgb(222, 24, 24)70%);
 }
 
-.find,
+.lcard .find,
 .lcard:after {
     width: 100%;
     position: absolute;
@@ -65,31 +65,31 @@
     transition: .5s;
 }
 
-.find:hover{
+.lcard .find:hover{
     background: none;
 }
 
-.lcard:hover:after {
+.lcard .lcard:hover:after {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2)10%, rgb(163, 20, 20)70%);
 
 }
 
-.time{
+.lcard .time{
     text-decoration: underline;
 }
 
-.time,
-.find p{
+.lcard .time,
+.lcard .find p{
     font-size: 25px;
 }
 
-.nav-link {
+.lcard .nav-link {
     position: relative;
     display: inline-block;
     text-decoration: none;
 }
 
-.lcard .nav-link em::before {
+.lcard .lcard .nav-link em::before {
     content: "";
     display: inline-block;
     width: 100px;
@@ -107,21 +107,21 @@
         margin: 20px;
     }
     
-    .find h1 {
+    .lcard .find h1 {
         font-size: 40px;
         padding-bottom: 6px;
     }
     
-    .nav-link {
+    .lcard .nav-link {
         font-size: 20px;
     }
     
-    .find:hover{
+    .lcard .find:hover{
         background: none;
     }
     
-    .time,
-    .find p{
+    .lcard .time,
+    .lcard .find p{
         font-size: 20px;
     }
 
