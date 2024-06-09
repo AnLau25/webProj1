@@ -45,7 +45,7 @@ const Servspage = () => {
                                     <ServCards className='servspage-carrous-item' imgprop='./public/assets/Serv_Dash.png' servprop='Tableau de bord' />
                                     <ServCards className='servspage-carrous-item' imgprop='./public/assets/Serv_Fluid.png' servprop='Fluides' />
                                 </Carousel>
-                                <Redbtn className='servspage-btn' prop={'Estimez vos frais'} />
+                                <Redbtn href="#calc" className='servspage-btn' prop={'Estimez vos frais'} />
                             </div>
                         </Col>
                     </Row>

@@ -6,7 +6,7 @@ import { Container, Row, Col, Nav, Tab } from 'react-bootstrap'
 const Experts = () => {
     return (
         <section className='experts' id='experts'>
-            <img src='./src/assets/TopReg.png' alt="Header" className="header-image" />
+            <img src='./public/assets/TopReg.png' alt="Header" className="header-image" />
             <div className='content'>
                 <Container>
                     <Row>

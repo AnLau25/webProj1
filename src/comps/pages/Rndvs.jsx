@@ -123,7 +123,7 @@ const Rndvs = () => {
                                         />
                                     </Col>
                                     <Col sm={12} className='px-1 form-element'>
-                                        <Redbtn prop="Prendre rendez-vous" onClick={handleClearForm} />
+                                        <Redbtn prop="Prendre rendez-vous" onClick={handleClearForm} href="#"/>
                                     </Col>
                                 </Row>
                             </form>

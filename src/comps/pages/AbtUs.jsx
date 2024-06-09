@@ -26,7 +26,7 @@ const AbtUs = () => {
               Peut-être évoquer les métaux d'origine nationale.</p>
         </div>
         <div className='wbtn-container'>
-          <Wtebtn className='wbtn' prop="Rejoindre l'équipe"/>
+          <Wtebtn href="#experts" className='wbtn' prop="Notre équipe"/>
         </div>
       </div>
     </section>

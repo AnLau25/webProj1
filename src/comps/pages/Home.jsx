@@ -52,8 +52,8 @@ const Home = () => {
             <h1><em>DE</em><span className='wrap'><em>{text}</em></span></h1>
             <p>Insérez ici une brève description des valeurs de l'entreprise, de sa façon de travailler, etc. Quelque chose d'accrocheur et de convaincant.</p>
             <div className="button-container">
-              <Redbtn prop='Prendre rendez-vous' />
-              <Wtebtn prop='Parcourir les services' />
+              <Redbtn href="#rndvs" prop='Prendre rendez-vous' />
+              <Wtebtn href="#servPage" prop='Parcourir les services' />
             </div>
           </Col>
         </Row>
