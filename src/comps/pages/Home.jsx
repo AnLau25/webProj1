@@ -1,5 +1,5 @@
 import React from 'react'
-import './Home.css'
+import '/src/App.css'
 import Redbtn from '../tools/Redbtn'
 import Wtebtn from '../tools/Wtebtn'
 import { useState, useEffect } from 'react'
