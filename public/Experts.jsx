@@ -13,24 +13,21 @@ const Experts = () => {
             const tab = queryParams.get('tab');
             if (tab) {
                 setDefaultTab(tab);
-                scrollToSection();
             }
         }
     }, []);
 
     useEffect(() => {
-        scrollToSection();
+        if (window.location.hash.includes('#experts')) {
+            const element = document.getElementById('experts');
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth' });
+            }
+        }
     }, [defaultTab]);
 
     const handleTabSelect = (key) => {
         setDefaultTab(key);
-    };
-
-    const scrollToSection = () => {
-        const element = document.getElementById('experts');
-        if (element) {
-            element.scrollIntoView({ behavior: 'smooth' });
-        }
     };
 
     return (
