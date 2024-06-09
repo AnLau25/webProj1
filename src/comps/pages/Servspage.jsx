@@ -28,7 +28,7 @@ const Servspage = () => {
 
     return (
         <section className='servspage-ServPage' id='servPage'>
-            <img src='./public/assets/TopReg.png' alt="Header" className="servspage-header-image" />
+            <img src='./public/TopReg.png' alt="Header" className="servspage-header-image" />
             <div className='servspage-content'>
                 <Container>
                     <Row>
@@ -36,14 +36,14 @@ const Servspage = () => {
                             <div className='servspage-Serv-box'>
                                 <h1 className="servspage-title"><span><em>Tous nos services</em></span>SERVICES OFFERTS DANS TOUS NOS LOCAUX, QUALITÉ GARANTIE</h1>
                                 <Carousel responsive={responsive} infinite={true} className='servspage-Serv-slider'>
-                                    <ServCards className='servspage-carrous-item' imgprop='./public/assets/Serv_Entretien.png' servprop='Entretien' />
-                                    <ServCards className='servspage-carrous-item' imgprop='./public/assets/Serv_Roues.png' servprop='Roues' />
-                                    <ServCards className='servspage-carrous-item' imgprop='./public/assets/Serv_Freins.png' servprop='Freins' />
-                                    <ServCards className='servspage-carrous-item' imgprop='./public/assets/Serv_Paint.png' servprop='Peinture' />
-                                    <ServCards className='servspage-carrous-item' imgprop='./public/assets/Serv_Motor.png' servprop='Moteur' />
-                                    <ServCards className='servspage-carrous-item' imgprop='./public/assets/Serv_Bod.png' servprop='Corps' />
-                                    <ServCards className='servspage-carrous-item' imgprop='./public/assets/Serv_Dash.png' servprop='Tableau de bord' />
-                                    <ServCards className='servspage-carrous-item' imgprop='./public/assets/Serv_Fluid.png' servprop='Fluides' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./public/Serv_Entretien.png' servprop='Entretien' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./public/Serv_Roues.png' servprop='Roues' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./public/Serv_Freins.png' servprop='Freins' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./public/Serv_Paint.png' servprop='Peinture' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./public/Serv_Motor.png' servprop='Moteur' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./public/Serv_Bod.png' servprop='Corps' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./public/Serv_Dash.png' servprop='Tableau de bord' />
+                                    <ServCards className='servspage-carrous-item' imgprop='./public/Serv_Fluid.png' servprop='Fluides' />
                                 </Carousel>
                                 <Redbtn href="#calc" className='servspage-btn' prop={'Estimez vos frais'} />
                             </div>
