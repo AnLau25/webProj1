@@ -1,6 +1,6 @@
 import React from 'react'
 import './Home.css'
-import Redbtn from '../src/comps/Redbtn'
+import Redbtn from './Redbtn'
 import Wtebtn from '../src/comps/Wtebtn'
 import { useState, useEffect } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Redbtn from './Redbtn';
+import Redbtn from '../../public/Redbtn';
 import Wtebtn from './Wtebtn';
 import './Sinsout.css';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import './ServsPage.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Redbtn from '../src/comps/Redbtn';
+import Redbtn from './Redbtn';
 import ServCards from '../src/comps/ServCards';
 import { Container, Row, Col } from 'react-bootstrap';
 
