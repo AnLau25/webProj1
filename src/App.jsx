@@ -8,7 +8,7 @@ import QundsA from './comps/pages/QundsA'
 import LocFind from './comps/pages/LocFind'
 import AbtUs from './comps/pages/AbtUs'
 import Calc from './comps/pages/Calc'
-import './Calc.css'
+import './comps/pages/Calc.css'
 
 function app() {
   return (
