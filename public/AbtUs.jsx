@@ -1,5 +1,5 @@
 import React from 'react';
-import Wtebtn from '../src/comps/Wtebtn';
+import Wtebtn from './Wtebtn';
 import './AbtUs.css';
 
 const AbtUs = () => {
