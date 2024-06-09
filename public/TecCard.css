@@ -44,11 +44,11 @@
 
   .teccard img {
       width: 100%;
-      max-width: 200px; /* Adjusted max-width for smaller screens */
+      max-width: 200px; 
   }
 
   .teccard .desc {
-      font-size: 16px; /* Adjusted font size */
+      font-size: 16px; 
   }
 
   .teccard .teccard-title {
@@ -68,11 +68,11 @@
 
   .teccard img {
       width: 100%;
-      max-width: 100px; /* Adjusted max-width for smaller screens */
+      max-width: 100px; 
   }
 
   .teccard .desc {
-      font-size: 24px; /* Adjusted font size */
+      font-size: 24px; 
   }
 
   .teccard .teccard-title {

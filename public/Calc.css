@@ -81,7 +81,7 @@
     padding-left: 0.4em;
     background-color: white;
     background-image: none;
-    appearance: menulist; /* Restore default appearance */
+    appearance: menulist; 
 }
 
 .Calc .total-estime {

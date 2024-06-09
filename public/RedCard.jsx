@@ -1,5 +1,5 @@
 import React from 'react';
-import './RedCard.css'; // Make sure to import the CSS file
+import './RedCard.css'; 
 
 const RedCard = () => {
     return (

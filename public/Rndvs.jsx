@@ -40,7 +40,7 @@ const Rndvs = () => {
     };
 
     const handleClearForm = (event) => {
-        event.preventDefault();  // Prevent the default form submission behavior
+        event.preventDefault();  
         if (formRef.current) {
             formRef.current.reset();
             setShowToast(true);

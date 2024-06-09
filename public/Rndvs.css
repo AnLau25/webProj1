@@ -150,7 +150,6 @@
     appearance: menulist; 
 }
 
-/* Media Queries for Responsiveness */
 
 @media (max-width: 1397px) {
     .form-section {

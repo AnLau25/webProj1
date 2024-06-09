@@ -101,5 +101,5 @@
 }
 
 .col-md-6 {
-  position: relative; /* Ensure the form container is relative for absolute positioning */
+  position: relative; 
 }

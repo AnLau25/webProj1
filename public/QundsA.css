@@ -55,7 +55,6 @@
 .QundsA .accordion-button::before {
     content: '';
     background-image: url('ngrnj.svg');
-    /* Path to your custom icon */
     background-size: contain;
     background-repeat: no-repeat;
     width: 40px;
@@ -93,7 +92,6 @@
 
 .QundsA .accordion-item {
     border: none !important;
-    /* Remove any borders */
 }
 
 @media (max-width: 1398px) {
@@ -126,7 +124,6 @@
     }
 }
 
-/* For screens up to 992px */
 @media (max-width: 992px) {
     .QundsA {
         height: auto;
@@ -159,7 +156,6 @@
     }
 }
 
-/* For screens up to 768px */
 @media (max-width: 768px) {
     .QundsA .qundsaHead h1 {
         font-size: 30px;

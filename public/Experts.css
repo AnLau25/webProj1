@@ -20,27 +20,27 @@
 .experts .subs {
     color: rgba(163, 20, 20, 1);
     font-weight: bold;
-    font-size: 30px; /* Adjust font size as needed */
-    margin-left: 20px; /* Space between pill toggle and .subs */
+    font-size: 30px; 
+    margin-left: 20px; 
     display: inline-block;
     vertical-align: middle;
 }
 
 .experts .subs em {
-    display: block; /* Makes each <em> element block-level */
+    display: block; 
     position: relative;
 }
 
 .experts .subs em:first-child {
-    display: flex; /* Use flexbox for the first <em> */
-    align-items: center; /* Center align items vertically */
-    justify-content: flex-end; /* Align content to the right */
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-end; 
 }
 
 .experts .subs em:first-child::before {
     content: "";
     display: inline-block;
-    width: 100px; /* Adjust as needed */
+    width: 100px; 
     height: 2px;
     background-color: rgba(163, 20, 20, 1);
     margin-right: 5px;
@@ -64,40 +64,40 @@
     position: absolute;
     bottom: 0;
     left: 70px;
-    width: calc(100% - 20px); /* Adjust this value to control the length of the line */
+    width: calc(100% - 20px); 
     height: 2px;
     background-color: rgba(163, 20, 20, 1);
 }
 
 .experts .nav.nav-pills {
-    width: auto; /* Adjust to fit content */
-    display: inline-flex; /* Use inline-flex to keep it inline with .subs */
+    width: auto; 
+    display: inline-flex; 
     border-radius: 50px;
     background-color: black;
     overflow: hidden;
 }
 
 .experts .nav.nav-pills .nav-item {
-    width: auto; /* Adjust width as needed */
+    width: auto; 
 }
 
 .experts .nav.nav-pills .nav-link {
     background-color: transparent;
     border-radius: 50px;
-    padding: 10px 40px; /* Adjust padding as needed */
+    padding: 10px 40px; 
     color: white;
-    font-size: 30px; /* Adjust font size as needed */
+    font-size: 30px; 
     text-align: center;
     transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .experts .nav.nav-pills .nav-link.active {
-    background-color: rgba(163, 20, 20, 1); /* Red color */
+    background-color: rgba(163, 20, 20, 1);
     color: white;
 }
 
 .experts .nav.nav-pills .nav-link:not(.active) {
-    background-color: black; /* Black color */
+    background-color: black; 
 }
 
 .nav-link#experts-tab-tab-first.active {
@@ -115,19 +115,18 @@
     margin-bottom: 20px;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     .experts .subs {
-        font-size: 24px; /* Adjust font size for smaller screens */
-        margin-left: 10px; /* Adjust margin for smaller screens */
+        font-size: 24px; 
+        margin-left: 10px; 
     }
 
     .experts .tab-content .tab-pane h1 {
-        font-size: 40px; /* Adjust font size for smaller screens */
+        font-size: 40px; 
     }
 
     .experts .nav.nav-pills .nav-link {
-        font-size: 24px; /* Adjust font size for smaller screens */
-        padding: 10px 20px; /* Adjust padding for smaller screens */
+        font-size: 24px; 
+        padding: 10px 20px; 
     }
 }
