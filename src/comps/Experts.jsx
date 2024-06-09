@@ -1,6 +1,6 @@
 import React from 'react'
 import './Experts.css'
-import TecCard from '../tools/TecCard'
+import TecCard from './TecCard'
 import { Container, Row, Col, Nav, Tab } from 'react-bootstrap'
 
 const Experts = () => {
