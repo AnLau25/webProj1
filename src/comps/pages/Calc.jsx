@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import Select from 'react-select';
 import { Container, Row, Col } from 'react-bootstrap';
 import RedBtnBase from '../tools/RedBtnBase';
-import '/src/App.css'
+import './Calc.css'
 
 const Calc = () => {
     const [type, setType] = useState('');

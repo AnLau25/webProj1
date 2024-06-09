@@ -1,6 +1,6 @@
 import React from 'react';
 import Wtebtn from '../tools/Wtebtn';
-import '/src/App.css';
+import './AbtUs.css';
 
 const AbtUs = () => {
   return (
