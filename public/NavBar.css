@@ -125,7 +125,7 @@
     border-color: transparent; 
 }
 
-.custom-navbar .navbar-toggler:focus{
+.custom-navbar .navbar-toggler-icon:focus{
     box-shadow: rgba(163, 20, 20, 1);
 }
 
