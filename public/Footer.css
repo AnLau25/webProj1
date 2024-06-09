@@ -57,7 +57,7 @@ footer {
 }
 
 /* Media Queries */
-@media (max-width: 1397px) {
+@media (max-width: 1398px) {
     .left-content {
         margin-top: 90px;
         transform: translateX(-20%);

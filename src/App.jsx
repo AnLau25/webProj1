@@ -7,7 +7,7 @@ import Footer from '../public/Footer'
 import QundsA from './comps/QundsA'
 import LocFind from '../public/LocFind'
 import AbtUs from '../public/AbtUs'
-import Calc from './comps/Calc'
+import Calc from '../public/Calc'
 
 function app() {
   return (
