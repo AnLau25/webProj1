@@ -125,8 +125,11 @@
     border-color: transparent; 
 }
 
-.custom-navbar .navbar-toggler-icon:focus{
-    box-shadow: rgba(163, 20, 20, 1);
+.custom-navbar .navbar-toggler:focus,
+.custom-navbar .navbar-toggler:active {
+    border-color: rgba(163, 20, 20, 1);
+    outline: none; 
+    box-shadow: 0 0 5px rgba(163, 20, 20, 1);
 }
 
 .custom-navbar .navbar-toggler-icon {
