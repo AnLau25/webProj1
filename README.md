@@ -1,8 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Course SEG2505 at UO
+- First website project, service-oriented, Car Mechanic Shop
+- One pager
+- Using Bootstrap CSS framework for a dynamic and smooth UI
+- Focusing on implementing UI/UX concepts such as:
+  * User-centred design
+  * User-centred interactions
+  * Verbal and visual communication
+- Hosted at https://webproj1.netlify.app/ 
