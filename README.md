@@ -1,6 +1,6 @@
-# React + Vite
+# Website project for SEG3525
 
-- Course SEG2505 at UO
+- Course SEG3525 at UO
 - First website project, service-oriented, Car Mechanic Shop
 - One pager
 - Using Bootstrap CSS framework for a dynamic and smooth UI
